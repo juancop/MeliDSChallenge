@@ -12,7 +12,6 @@ from collections import defaultdict
 class CountryNotFound(Exception):
     pass
 
-
 class meliRetriever:
     """
     It's a class that allows the user to donwload the information of all the listed
