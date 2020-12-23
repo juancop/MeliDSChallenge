@@ -1,0 +1,2 @@
+pandas==1.1.1
+progressbar==3.53.1
