@@ -143,7 +143,7 @@ class meliRetriever:
             try:
                 complete_category_df = pd.read_csv(path, sep = ";")
             except:
-                time.sleep(20)
+                time.sleep(0.05)
                 page_df_by_offset = [self.list_marketplace_products(self.site_id, category_id, offset) 
                                             for offset in range(0, 1051, 50)]
 
@@ -152,6 +152,22 @@ class meliRetriever:
                 if export_individual:
                     complete_category_df.to_csv(path, sep = ';', index = False)
         return complete_category_df
+
+    def multiple_attribute_keys_df(self, product_json):
+        """
+        This function extract the nested attributes. 
+
+        Params
+        --------
+            product_json (dict):
+                A dictionary containing the response from the API
+
+        Returns
+        --------
+            result_df (pandas.DataFrame)
+                A pandas DataFrame with the information of each product
+        """
+
 
     def single_attribute_keys_df(self, product_json):
         """
@@ -166,11 +182,11 @@ class meliRetriever:
         Returns
         --------
             result_df (pandas.DataFrame)
-                A pandas DataFrame with the information of each
+                A pandas DataFrame with the information of each product
         """
         single_attribute_keys = ['id', 'category_id', 'title', 'price', 'available_quantity', 'sold_quantity', 
                                  'buying_mode', 'listing_type_id', 'accepts_mercadopago',
-                                 'original_price']
+                                 'original_price', 'condition']
 
         merge_dictionary = defaultdict(list)
 
@@ -181,3 +197,24 @@ class meliRetriever:
         selected_features = {k:v for (k,v) in merge_dictionary.items() if k in single_attribute_keys}
         result_df = pd.DataFrame.from_dict(selected_features)
         return result_df
+
+
+# Sample function for retrieving creation date
+def retrieve_date_and_questions(token):
+    time.sleep(0.05)
+    url = 'https://api.mercadolibre.com/questions/search?item=MLA869879846&sort_fields=date_created&limit=1'
+    header = {
+        'Authorization': f'Bearer {token}' 
+    }
+    r = requests.get(url = url, headers = header)
+    question_json = r.json()
+    print(question_json)
+    total = question_json['total']
+    questions = question_json['questions']
+    if questions:
+        fecha_primera = questions[0]['date_created'].split('-')
+        year_created, month_created = fecha_primera[0], fecha_primera[1]
+    else:
+        year_created, month_created = None, None
+    
+    return total, year_created, month_created
