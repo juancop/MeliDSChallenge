@@ -171,10 +171,47 @@ class meliRetriever:
             result_df (pandas.DataFrame)
                 A pandas DataFrame with the information of each product
         """
+        seller_attributes = iterate_and_combine(product_json, self.extract_seller_attributes)
+        product_info = iterate_and_combine(product_json, self.extract_nested_product_info)      
+        update_info = iterate_and_combine(product_json, self.date_information)
+        question_info = iterate_and_combine(product_json, self.retrieve_date_and_questions)
 
+        list_of_features = [product_info, update_info, question_info]
+        for information in list_of_features:
+            seller_attributes.update(information)
 
+        result_df = pd.DataFrame.from_dict(seller_attributes)
+        return result_df
+        
+    def iterate_and_combine(product_json, function):
+        """
+        Iterates through the JSON and retrieves the fields based on the function of interest.
 
+        Params
+        --------
+            product_json (dictionary):
+                A dictionary containing the 'results' response from MELI's API
 
+            function (function):
+                A function that performs extraction of fields.
+
+        Returns
+        --------
+            merge_dictionary (dictionary):
+                A dictionary containing a list of all results from the function of interest.
+
+        """
+        n_elements = len(product_json)
+        dictionary_list = [function(product_json, idx) for idx in range(n_elements)]
+
+        merge_dictionary = defaultdict(list)
+
+        for dictionary in dictionary_list: # Combines the values of each key into a list.
+            for key, value in dictionary.items():
+                merge_dictionary[key].append(value)
+        
+        return merge_dictionary
+    
     def single_attribute_keys_df(self, product_json):
         """
         This function combines the information retrieved by product json. Selects specific attributes
