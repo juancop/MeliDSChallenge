@@ -151,7 +151,7 @@ class meliRetriever:
                 complete_category_df = pd.concat(page_df_by_offset, axis = 0, ignore_index=True)
                 complete_category_df['category_name'] = self.available_categories[category_id]
                 if export_individual:
-                    complete_category_df.to_csv(f'{category_id}.csv', sep = ';', index = False)
+                    complete_category_df.to_csv(path, sep = ';', index = False)
         return complete_category_df
 
     def single_attribute_keys_df(self, product_json):
