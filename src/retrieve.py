@@ -1,5 +1,8 @@
 # A class that retrieves the information of all products listed on MercadoLibre in a given country.
+# Developed by Juan Eduardo Coba Puerto - Based on the documentation available at https://developers.mercadolibre.com.co
 import requests
+import pandas as pd
+from collections import defaultdict
 
 class CountryNotFound(Exception):
     pass
@@ -65,3 +68,43 @@ class productsdf:
                                                                         for i in range(len(categories_list))}
         return categories_dictionary
 
+    def list_marketplace_products(self, site_id, category_id, offset):
+        page_url = f'https://api.mercadolibre.com/sites/{site_id}/search?category={category_id}&offset={offset}'
+        product_request = requests.get(url = page_url).json()
+        #total_products = product_request['paging']['total'] Maximum 1000 without access key
+        product_json = product_request['results']
+        product_df = self.single_attribute_keys(product_json)
+
+    def iterate_through_category(self, sited_id, category_id):
+        """
+        
+        """
+
+    def single_attribute_keys(self, product_json):
+        """
+        This function combines the information retrieved by product json. Selects specific attributes
+        that are easy to extract.
+
+        Params
+        --------
+            product_json (dict):
+                A dictionary containing the response from the API
+
+        Returns
+        --------
+            result_df (pd.DataFrame)
+                A pandas DataFrame with the information of each
+        """
+        single_attribute_keys = ['id', 'title', 'price', 'available_quantity', 'sold_quantity', 
+                                 'buying_mode', 'listing_type_id', 'accepts_mercadopago',
+                                 'original_price']
+
+        merge_dictionary = defaultdict(list)
+
+        for dictionary in product_json: # Combines the values of each key into a list.
+            for key, value in dictionary.items():
+                merge_dictionary[key].append(value)
+
+        selected_features = {k:v for (k,v) in merge_dictionary.items() if k in single_attribute_keys}
+        result_df = pd.DataFrame.from_dict(aaa)
+        return result_df
