@@ -6,6 +6,7 @@ import time
 import requests
 import pandas as pd
 from tqdm import tqdm 
+from progressbar import progressbar
 from collections import defaultdict
 
 class CountryNotFound(Exception):
