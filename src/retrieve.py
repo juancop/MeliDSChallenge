@@ -28,6 +28,18 @@ class productsdf:
         self.site_id = self.__retrieve_site_id(self.site_name)
         self.available_categories = self.__retrieve_categories_ids()
 
+    def create_dataset(self, export_file = True, file_name = 'results.csv'):
+        """
+        Creates a DataSet listing all available products in Mercado Libre's Marketplace
+        """
+
+        category_dataframes = [self.iterate_through_category(self.site_id, category_id) 
+                                        for category_id in self.available_categories.keys()]
+        complete_site_df = pd.concat(category_dataframes, axis = 0, ignore_index=True)
+        if export_file:
+            complete_site_df.to_csv(file_name, sep = ';')
+        return complete_site_df
+
     def __retrieve_site_id(self, site_name):
         """
         Retrieves the site_id of the selected country.
@@ -69,18 +81,58 @@ class productsdf:
         return categories_dictionary
 
     def list_marketplace_products(self, site_id, category_id, offset):
+        """
+        Retrieves a fraction of the listed products.
+
+        Params
+        --------
+            site_id (string): 
+                The ID of the country of interest
+            
+            category_id (string):
+                The ID of the category of interest
+
+            offset (integer):
+                Starting point of the request.
+
+        Returns
+        ---------
+            product_df (pandas.DataFrame):
+                A DataFrame containing all the single-valued information for each product
+        """
         page_url = f'https://api.mercadolibre.com/sites/{site_id}/search?category={category_id}&offset={offset}'
         product_request = requests.get(url = page_url).json()
         #total_products = product_request['paging']['total'] Maximum 1000 without access key
         product_json = product_request['results']
-        product_df = self.single_attribute_keys(product_json)
+        product_df = self.single_attribute_keys_df(product_json)
+        return product_df
 
-    def iterate_through_category(self, sited_id, category_id):
+    def iterate_through_category(self, site_id, category_id):
         """
+        Lists all the products in a given category.
+
+        Params
+        --------
+            site_id (string): 
+                The ID of the country of interest
+            
+            category_id (string):
+                The ID of the category of interest
         
+        Returns
+        --------
+            complete_category_df (pandas.DataFrame):
+                A DataFrame containing all the retrieved information for a given category
         """
 
-    def single_attribute_keys(self, product_json):
+        page_df_by_offset = [self.list_marketplace_products(self.site_id, category_id, offset) 
+                                    for offset in range(0, 1051, 50)]
+
+        complete_category_df = pd.concat(product_dfs, axis = 0, ignore_index=True)
+        complete_category_df['category_name'] = self.available_categories[category_id]
+        return complete_category_df
+
+    def single_attribute_keys_df(self, product_json):
         """
         This function combines the information retrieved by product json. Selects specific attributes
         that are easy to extract.
@@ -92,10 +144,10 @@ class productsdf:
 
         Returns
         --------
-            result_df (pd.DataFrame)
+            result_df (pandas.DataFrame)
                 A pandas DataFrame with the information of each
         """
-        single_attribute_keys = ['id', 'title', 'price', 'available_quantity', 'sold_quantity', 
+        single_attribute_keys = ['id', 'category_id', 'title', 'price', 'available_quantity', 'sold_quantity', 
                                  'buying_mode', 'listing_type_id', 'accepts_mercadopago',
                                  'original_price']
 
@@ -106,5 +158,5 @@ class productsdf:
                 merge_dictionary[key].append(value)
 
         selected_features = {k:v for (k,v) in merge_dictionary.items() if k in single_attribute_keys}
-        result_df = pd.DataFrame.from_dict(aaa)
+        result_df = pandas.DataFrame.from_dict(aaa)
         return result_df
