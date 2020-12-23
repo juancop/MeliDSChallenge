@@ -19,7 +19,7 @@ class meliRetriever:
     
     """
 
-    def __init__(self, site_name, folder = 'data'):
+    def __init__(self, site_name, token, folder = 'data'):
         """
         Params:
         --------
@@ -29,9 +29,13 @@ class meliRetriever:
         """
         
         self.site_name = site_name.capitalize()
+        self.authorization_token =  {
+                            'Authorization': f'Bearer {token}' 
+                        }
         self.site_id = self.__retrieve_site_id(self.site_name)
         self.available_categories = self.__retrieve_categories_ids()
         self.folder = folder
+        
 
     def create_dataset(self, export_file = True, file_name = 'results.csv', export_individual = True, check_existence = True):
         """
@@ -66,7 +70,7 @@ class meliRetriever:
                 The site ID based on MELI's definition. 
         """
         sites_url = "https://api.mercadolibre.com/sites"
-        response = requests.get(url = sites_url)
+        response = requests.get(url = sites_url, headers = self.authorization_token)
         sites_list = response.json()
         site_dictionary = next((site for site in sites_list if site["name"] == site_name), None)
         if site_dictionary is None:
@@ -84,7 +88,7 @@ class meliRetriever:
                 A dictionary containing {category_id: category_name}
         """
         categories_url = f'https://api.mercadolibre.com/sites/{self.site_id}/categories'
-        response = requests.get(url = categories_url)
+        response = requests.get(url = categories_url, headers = self.authorization_token)
         categories_list = response.json()
         categories_dictionary = {categories_list[i]['id']: categories_list[i]['name'] 
                                                                         for i in range(len(categories_list))}
@@ -111,7 +115,7 @@ class meliRetriever:
                 A DataFrame containing all the single-valued information for each product
         """
         page_url = f'https://api.mercadolibre.com/sites/{site_id}/search?category={category_id}&offset={offset}'
-        product_request = requests.get(url = page_url).json()
+        product_request = requests.get(url = page_url, headers = self.authorization_token).json()
         #total_products = product_request['paging']['total'] Maximum 1000 without access key
         try:
             product_json = product_request['results']
@@ -167,6 +171,8 @@ class meliRetriever:
             result_df (pandas.DataFrame)
                 A pandas DataFrame with the information of each product
         """
+
+
 
 
     def single_attribute_keys_df(self, product_json):
