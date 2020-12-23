@@ -182,10 +182,3 @@ class meliRetriever:
         selected_features = {k:v for (k,v) in merge_dictionary.items() if k in single_attribute_keys}
         result_df = pd.DataFrame.from_dict(selected_features)
         return result_df
-
-    def check_if_exists(self, category_id, folder):
-        """
-        As per conectivity issues, this functions checks whether or not there exists a file
-        containing the queried information. If so, it skips the entire connection process.
-        """
-
