@@ -1,21 +1,25 @@
 # A class that retrieves the information of all products listed on MercadoLibre in a given country.
 # Developed by Juan Eduardo Coba Puerto - Based on the documentation available at https://developers.mercadolibre.com.co
+
+import os
+import time
 import requests
 import pandas as pd
+from tqdm import tqdm 
 from collections import defaultdict
 
 class CountryNotFound(Exception):
     pass
 
 
-class productsdf:
+class meliRetriever:
     """
     It's a class that allows the user to donwload the information of all the listed
     items at Mercado Libre's Marketplace.
     
     """
 
-    def __init__(self, site_name):
+    def __init__(self, site_name, folder = 'data'):
         """
         Params:
         --------
@@ -27,17 +31,24 @@ class productsdf:
         self.site_name = site_name.capitalize()
         self.site_id = self.__retrieve_site_id(self.site_name)
         self.available_categories = self.__retrieve_categories_ids()
+        self.folder = folder
 
-    def create_dataset(self, export_file = True, file_name = 'results.csv'):
+    def create_dataset(self, export_file = True, file_name = 'results.csv', export_individual = True, check_existence = True):
         """
         Creates a DataSet listing all available products in Mercado Libre's Marketplace
         """
 
-        category_dataframes = [self.iterate_through_category(self.site_id, category_id) 
-                                        for category_id in self.available_categories.keys()]
+        category_dataframes = [self.iterate_through_category(self.site_id, category_id, export_individual, check_existence) 
+                                        for category_id in progressbar(self.available_categories.keys())]
+        #category_dataframes = []
+        #for category_id in tqdm(self.available_categories.keys()):
+        #    print(category_id)
+        #    category_df = self.iterate_through_category(self.site_id, category_id) 
+        #    category_dataframes.append(category_df)
+
         complete_site_df = pd.concat(category_dataframes, axis = 0, ignore_index=True)
         if export_file:
-            complete_site_df.to_csv(file_name, sep = ';')
+            complete_site_df.to_csv(file_name, sep = ';', index = False)
         return complete_site_df
 
     def __retrieve_site_id(self, site_name):
@@ -59,8 +70,7 @@ class productsdf:
         sites_list = response.json()
         site_dictionary = next((site for site in sites_list if site["name"] == site_name), None)
         if site_dictionary is None:
-            raise CountryNotFound(f'The country {site_name} is not available. See available countries
-             at https://api.mercadolibre.com/sites') # exception
+            raise CountryNotFound(f'The country {site_name} is not available. See available countries at https://api.mercadolibre.com/sites') # exception
         else:
             return site_dictionary['id']
 
@@ -74,7 +84,7 @@ class productsdf:
                 A dictionary containing {category_id: category_name}
         """
         categories_url = f'https://api.mercadolibre.com/sites/{self.site_id}/categories'
-        response = requests.get(url = sites_url)
+        response = requests.get(url = categories_url)
         categories_list = response.json()
         categories_dictionary = {categories_list[i]['id']: categories_list[i]['name'] 
                                                                         for i in range(len(categories_list))}
@@ -103,11 +113,14 @@ class productsdf:
         page_url = f'https://api.mercadolibre.com/sites/{site_id}/search?category={category_id}&offset={offset}'
         product_request = requests.get(url = page_url).json()
         #total_products = product_request['paging']['total'] Maximum 1000 without access key
-        product_json = product_request['results']
-        product_df = self.single_attribute_keys_df(product_json)
-        return product_df
+        try:
+            product_json = product_request['results']
+            product_df = self.single_attribute_keys_df(product_json)
+            return product_df
+        except:
+            pass
 
-    def iterate_through_category(self, site_id, category_id):
+    def iterate_through_category(self, site_id, category_id, export_individual = True, check_existence = True):
         """
         Lists all the products in a given category.
 
@@ -124,12 +137,20 @@ class productsdf:
             complete_category_df (pandas.DataFrame):
                 A DataFrame containing all the retrieved information for a given category
         """
+        path = os.path.join(self.folder, f'{category_id}.csv')
 
-        page_df_by_offset = [self.list_marketplace_products(self.site_id, category_id, offset) 
-                                    for offset in range(0, 1051, 50)]
+        if check_existence:
+            try:
+                complete_category_df = pd.read_csv(path, sep = ";")
+            except:
+                time.sleep(20)
+                page_df_by_offset = [self.list_marketplace_products(self.site_id, category_id, offset) 
+                                            for offset in range(0, 1051, 50)]
 
-        complete_category_df = pd.concat(product_dfs, axis = 0, ignore_index=True)
-        complete_category_df['category_name'] = self.available_categories[category_id]
+                complete_category_df = pd.concat(page_df_by_offset, axis = 0, ignore_index=True)
+                complete_category_df['category_name'] = self.available_categories[category_id]
+                if export_individual:
+                    complete_category_df.to_csv(f'{category_id}.csv', sep = ';', index = False)
         return complete_category_df
 
     def single_attribute_keys_df(self, product_json):
@@ -158,5 +179,12 @@ class productsdf:
                 merge_dictionary[key].append(value)
 
         selected_features = {k:v for (k,v) in merge_dictionary.items() if k in single_attribute_keys}
-        result_df = pandas.DataFrame.from_dict(aaa)
+        result_df = pd.DataFrame.from_dict(selected_features)
         return result_df
+
+    def check_if_exists(self, category_id, folder):
+        """
+        As per conectivity issues, this functions checks whether or not there exists a file
+        containing the queried information. If so, it skips the entire connection process.
+        """
+
