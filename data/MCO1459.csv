@@ -1,0 +1,1051 @@
+id;title;price;available_quantity;sold_quantity;buying_mode;listing_type_id;accepts_mercadopago;original_price;category_id;category_name
+MCO599054241;Se Vende Casa En Buenos Aires Dosquebradas;180000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598898506;Arriendo Alquilo Hermosa Casa Campestre Piscina Melgar;550000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO599054222;Se Vende Casa En Kennedy Pereira;165000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599015242;Arriendo Apartamento Maipore Mompos Soacha;500000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599054219;Se Vende Casa Campestre En Combia Pereira;450000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599054217;Se Vende Casa Campestre En Combia Pereira;950000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599054230;Se Vende Penthouse En Pereira;790000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599054239;Se Vende Casa Campestre En Combia Pereira;520000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599054240;Se Vende Casa En Belmonte Pereira;250000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598693211;Alquiler Apartamento En Milan, Manizales;1000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598693203;Alquiler Apartamento En Niza, Manizales;980000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599158545;Apartamento En  Arriendo ;700000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599054238;Se Vende Apartamento En Molivento De Las Villas ;185000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599054233;Se Vende Casa En  Quintas De Aragon  Dosquebradas;120000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599159727;Apartaestudio En  Arriendo ;550000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599054221;Se Vende Apartamento En Cerritos Reservado Pereira;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599054232;Se Vende Apartamento En Villa Verde Pereira;140000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599243017;Apartamento En Chapinero Central, Chapinero. 1 Habitaciones, 46 M²;1400000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242913;Apartamento En La Academia, La Academia. 2 Habitaciones, 57 M²;1600000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242896;Apartamento En Chicó Reservado, El Refugio. 1 Habitaciones, 44 M²;1450000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242814;Apartamento En Aloha Norte, Castilla. 3 Habitaciones, 52 M²;1100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242407;Apartamento En Lagos De Castilla, Castilla. 3 Habitaciones, 56 M²;1080000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242403;Apartamento En Salitre Nor-occidental, Ciudad Salitre Occidente. 3 Habitaciones, 70 M²;1600000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242127;Apartamento En Provivienda, Carvajal. 3 Habitaciones, 53 M²;950000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599243086;Apartamento En Lagos De Córdoba, Niza. 2 Habitaciones, 50 M²;1040000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241951;Apartamento En Toscana, El Refugio. 1 Habitaciones, 41 M²;930000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241862;Apartamento En Prados De La Alameda, Fontibón-san Pablo. 3 Habitaciones, 43 M²;950000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599321063;Apartamento En El Pencil, Suba. 2 Habitaciones, 75 M²;1700000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242371;Apartamento En Rincón De Iberia, Niza. 2 Habitaciones, 60 M²;1400000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242217;Apartamento En Hayuelos, Modelia. 3 Habitaciones, 60 M²;1600000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242172;Apartamento En Hayuelos, Modelia. 3 Habitaciones, 64 M²;1300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241730;Apartamento En San Isidro Norte, El Rincón. 3 Habitaciones, 67 M²;900000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241796;Apartamento En María Cristina, Pardo Rubio. 1 Habitaciones, 54 M²;1775000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242494;Apartamento En Puente Grande, Fontibón-san Pablo. 3 Habitaciones, 52 M²;850000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242369;Apartamento En Ciudad Favidi, Castilla. 2 Habitaciones, 42 M²;800000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242288;Apartamento En Cataluña, Chapinero. 1 Habitaciones, 43 M²;970000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241921;Apartamento En Campo Hermoso, Patio Bonito. 2 Habitaciones, 30 M²;800000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241888;Apartamento En Cantalejo, Britalia. 3 Habitaciones, 51 M²;1300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599054220;Se Vende Local Comercial En El Poblado De Pereira;220000000;1;0;classified;gold_premium;False;;MCO50561;Inmuebles
+MCO599242346;Apartamento En Puente Grande, Fontibón-san Pablo. 3 Habitaciones, 52 M²;845000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241844;Apartamento En Andes Norte, La Floresta. 1 Habitaciones, 30 M²;1200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599076792;Apartamento En  Venta ;245000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599054231;Se Vende Local Comercial En El Centro De Pereira;130000000;1;0;classified;gold_premium;False;;MCO50561;Inmuebles
+MCO598677561;Vendo Oficina Antiguo Country Bogota Mls 21-1140;500000000;1;0;classified;gold_premium;False;;MCO6401;Inmuebles
+MCO599322245;Apartamento En Nueva Granada, Pardo Rubio. 1 Habitaciones, 40 M²;1000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599243035;Apartamento En Toscana, El Refugio. 1 Habitaciones, 38 M²;1070000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242041;Apartamento En Chapinero Central, Chapinero. 1 Habitaciones, 19 M²;1340000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241765;Apartamento En Chapinero Central, Chapinero. 1 Habitaciones, 21 M²;1460000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241754;Apartamento En Chapinero Central, Chapinero. 1 Habitaciones, 20 M²;1400000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242330;Apartamento En Chapinero Central, Chapinero. 1 Habitaciones, 21 M²;1460000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242043;Apartamento En Chapinero Central, Chapinero. 1 Habitaciones, 26 M²;1760000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599242010;Apartamento En Chapinero Central, Chapinero. 1 Habitaciones, 25 M²;1100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599241773;Apartamento En Chapinero Central, Chapinero. 1 Habitaciones, 17 M²;1220000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598977019;Se Vende Hermosa Finca V.  4 F. Carbonera-guatavita;180000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598865895;Casa En Venta Barrio Santa Margarita Suba Mls 21-1367;1800000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598644465;Apartamento En Arriendo Poblado 472-1865;2900000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598666229;Apartamento En Arriendo Intermedia 472-1513;2200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599074146;Se Vende Casa Campestre En Cerritos Pereira;2700000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598734948;Apartamento Venta En El Recodo Fontibón 54 M2;160000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598652823;Alquiler Apartamento Vacacional Entero Ricaurte Girardot.;200000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO598776218;Apartamento Santa Barbara;355000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599074151;Se Vende Casa Campestre En Cerritos Pereira;1800000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598977021;Se Vende Finca En Guatavita 10 Fanegadas;180000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598854262;Apartamento En Arriendo Intermedia 472-1870;2600000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598852459;Apartamento En Arriendo Bosque De Niza 279-19472;752000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598796157;Apartamento Laureles Almeria Acabados De Lujo Negociable;360000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599054229;Se Vende Lote En La Pradera Dosquebradas;120000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599074186;Vendo Finca En Altagracia Pereira ;610000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598977012;Se Vende Lote 13.000 En La V. Carbonera Guatavita;130000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO598692751;Apartamentos En Venta;120000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598885418;Venta Apartamento Comfamiliar Gamma 3 Alcobas;120000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598677357;Arriendo Casa Calahorra Cundinamarca Mls 21-1340;5000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO599074164;En Venta Casa En Maraya, Pereira;400000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599074242;Se Vende Casa Dosquebradas, Los Almendros;190000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599242213;Apartamento En Toscana, El Refugio. 1 Habitaciones, 43 M²;1099000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598653695; Venta De Apartamento En Pinares Pereira ;550000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598947633;Apartamento En  Arriendo ;619000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598992237;Venta De Apartamento En Obelisco De La Villa Pereira;210000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599074220;Se Vende Apartamento En Cartago Valle;140000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599203672;Casa En Venta Barrio Sabana Centro Chía Mls 21-1377;680000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599074152;Se Vende Apartaestudio, Dosquebradas. Risaralda;183000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599074176;Se Vende Apartamento En La Rebeca Pereira;350000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599074147;Se Vende Apartamento, Dosquebradas, Valher;195000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598977018;Se Vende Lote 6000 Mariano Ospina Guasca;170000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599219894;Casa Sobre Planos ( Precio No Incluye Lote );305000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599211837;Se Vende Casa Campestre En Versalles Antioquia;220000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599183657;Apartamento  En Venta En Prado Veraniego, Spring.;297000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599182748;Apartamento En Arriendo Prados De Sabaneta 472-1872;1450000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598977020;Se Vende Lote 20.000mtrs2 Vereda Carbonera;160000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599187362;Apartamento En Arriendo San Jose Obrero 743-3414;1100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599123117;Arriendo Apartamento 3 Habitaciones 2 Baños Colina Campestre;1800000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599183541;Apartamento En Venta  En Spring, Prado Veraniego Norte;264000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598645846;Apartamento En Arriendo Poblado 472-1866;1700000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599074204;Se Vende Casa En Pinares Pereira;980000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599195432;Casa Con Piscina Privada Anapoima;1400000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO599200163;Casa Quinta Privada Peñaliza;1500000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO599274568;Casa Quinta Privada En El Eje Cafetero;1500000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO599263562;Casa Quinta Privada  Girardot;1200000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO598701974;Apartaestudio En Arriendo Poblado 472-1868;1300000;1;0;classified;gold_premium;False;;MCO6395;Inmuebles
+MCO599203603;Finca Con Piscina Privada;1700000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO599261823;Casa Vacacional Privada;1200000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO599260280;Casa Quinta Privada El Peñon;1800000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO599249038;Casa Quinta Con Piscina Privada;1400000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO598977013;Se Vende Lote 6.400 Mtrs2 V. Trinidad Guasca;145000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599194951;Casa Quinta Familiar El Peñon;1800000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO599074278;Se Vende Parqueadero En El Centro De Pereira;1400000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599265082;Casa Familiar Privada Girardot;1300000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO599251903;Quinta Privada El Peñon;1500000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO598977011;Se Vende Hermoso Lote 11.000 Mtrs2 En Guatavita;250000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599242022;Apartamento En Chapinero Central, Chapinero. 1 Habitaciones, 23 M²;1580000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598945282;Finca Sopetran;750000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598880819;Finca San Vicente 12 Hectáreas Mil Millones Via A Guatape ;1000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598730209;Apartamento 3 Habitaciones Rosales;1400000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598901560;Lindo Apartamento Amoblado Con Mucho Confort;110000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO598811732;Apartamento En Venta Oeste Cerro Cristales;430000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598811720;Apartamento En Venta Cali Valle De Lili 1 Piso;142000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598867328;Villa Santos Balcon Panoramico Parqueadero Estudio;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598715545;Apartamento 3 Habitaciones 3 Baños Lagos De Cordoba;650000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598944718;Casa En Itagüí Barrio Pilsen;300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598890285;Casa Via A Puerto Colombia. Sabanilla 300 Mts 2 Pisos ;530000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599074235;Se Vende Apartaestudio En Pinares Pereira;155000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598944712;Finca Cafetera Ciudad Bolivar Suroeste Ant.;580000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO599072943;Vendo Finca Productiva;2300000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598992475;Casa En La Estrella 180 Mts 570 Millones;570000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598910930;Vendo Casa Duitama Carrera 7 # 17  24 Barrio Sirata;310000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599074213;Se Vende Apartaestudio En Santa Rosa De Cabal;85000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598636618;Arriendo Espectacular Apartamento Familiar Colina Campestre!;2700000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599113480;Vendo Finca Especial Para Cultivo De Aguacate  ;650000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598811733;Apartamento En Venta Al Sur De Cali Valle De Lili 2 Piso;240000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598703332;Apartamento Sector Cumbres Envigado 3 Alcobas;399000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598944719;Apartamento En Laureles Medellin Ant.;532000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598920781;Arriendo Apartartamento La Calleja Bogotá 144m2 Más Terraza;4500000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598866414;Villa Campestre Sombra Balcon Con Vista Al Mar Caribe;460000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599113463;Chico, Arriendo Apartaestudio Amoblado;3900000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599203975;Casa 4 Habitaciones Y 1 Baño Y Mesanin;120000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598944721;Apartamento Sector Suramerica ;229000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598714644;Gran Oportunida Espectacular Casa En Rivera;320000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598676939;Apartamento En Venta Reserva Madrid;150000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598944715;Cesión De Derechos Apartamento En La Estrella;288000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598944716;Apartamento En La Estrella Suramérica Ant. ;276000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598944713;Apartamento Sector La Ferrería En La Estrella Ant.;260000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598944714;Apartamento En El Escobero Envigado Ant.;535000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599204856;Vendo Casa Esquinera 3 Plantas Madrid Cundinamarca;180000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599122362;Apartamento De Oportunidad En Manga ;290000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599187742;Apartamento En Venta, Rodadero, Primera Linea Latetal;280000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599216920;Se Arrienda Amplio Y Confortable Apartamento En Ciudad Salit;2450000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599135961;Lote A 3 Km Del Casco Urbano De Somondoco - Boyacá;110000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599261694;Penthouse Bogotá Lujoso 300 M2;1800000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599261632;Apartamento En Arriendo Reserva De Madrid;750000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599256537;Bodega En Arriendo, Gorgonzola, Puente Aranda;50000000;1;0;classified;gold_premium;False;;MCO50565;Inmuebles
+MCO599241642;Vendo Casa Lote Para Remodelar O Tumbar, Barrio Egipto;215000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599239110;Finca En Venecia 4.690 Mts Excelente Vista 750 Millones;750000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO599232858;¿¿ Casa La Magdalena Parque Principal Vía Villeta - Utica;250000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599190134;Apartamento En Venta En Gran Granada, Engativá.;228000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599275690;Yerbabonita Bosque Nativo - Casa En Venta;2000000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599256959;Arriendo Habitación En Usaquén;1000000;1;0;classified;gold_premium;False;;MCO60851;Inmuebles
+MCO599216887;Se Arrienda Espectacular Apartaestudio Duplex En Chapinero;2000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO598678383;Vendo Oficina Chico Norte Bogota 21-1245;330000000;1;0;classified;gold_premium;False;;MCO6401;Inmuebles
+MCO599184197;Aptos De 2 Y 3 Habitaciones En La Vega, Cundinamarca ;218000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598880442;Finca En San Vicente 38 Mil Mts 320 Millones Sin Casa;320000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598944700;Apartamento En La Estrella ;200000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599233002;Apartamento Conjunto Ankara Pontevedra - Piso 18;350000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598831017;Arriendo Casa De 7 Habitaciones Y 5 Baños;7000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO599281175;Sabaneta Vista Apartamirador 160m2 $730 Millones Oportunidad;730000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599217167;Se Vende En Anapoima Amplios Lotes En Condominio Vip;523250000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO598992642;Lote En Santa Elena Pro Indiviso 780 Mts 115 Millones ;115000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599183297;Apartamento Usado;338000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO599074603;Vendo Lote En Sogamoso,barrio La Villa,zona Urbana;125000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599268278;Oficinas En Arriendo Centro 918-1064;490000;1;0;classified;gold_premium;False;;MCO6399;Inmuebles
+MCO598636401;Lote Barro Blanco;105000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO598880683;Finca San Vicente 40 Mil Mts 600 Millones Via A Concepción ;600000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598793509;Venta De Lote;105000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO599274993;Locales En Arriendo Centro 918-1065;450000;1;0;classified;gold_premium;False;;MCO50560;Inmuebles
+MCO598875145;Negocio De Postres En La Cuadra Dulce De Bogota Modelo Norte;20000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO591528200;Alquiler Hermosa Finca Via Melgar - Carmen De Apicala;350000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO592944262;Alquiler Finca En Chinauta Privada Familias Empresas Eventos;40000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO580616217;Finca Piscina Privada Melgar Vacaciones Fin De Año;750000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO554287323;Alquiler Apartamento Amoblado Temporal Bogota;30000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO592944337;Apartamento 1 Habitación Barrio La Fraguita - Apartaestudio;550000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO594209069;Espectacular Casa Quinta Por Días - Semanas - Meses;400000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO589995279;Apartamento 505b Cartagena Alquiler Por Días Frente Al Mar;119900;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO518678982;Alquiler De Apartamento Amoblado En Envigado;200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO596928547;Casa Quinta Carmen De Apicalá [villa Carolina] 20 Personas;350000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO579204903;Casa Quinta Con Piscina Privada Ricaurte Cerca Girardot;850000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO579204875;Casa Campestre En Villeta En Alquiler Festivos Temporadas;950000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO579204957;Finca En  Anapoima Con Piscina Privada Alquiler Vacacional;850000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO597927124;Alquilo Finca  De Descanso Y  Recreación En La Mesa (cund.);300000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO555621299;Arriendo Casa Campestre Girardot Temporadas;390000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO518679806;Alquiler De Apartamentos Amoblados En El Poblado;200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO567222629;Apartamentos Amoblados En Medellín Por Dias Semanas O Meses.;44000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO593429757;Finca En Alquiler Jamundi. Wats 3157684248;700000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO568857747;Casa Finca En Marinilla Pro Indiviso 300 Millones ;300000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO566493682;Lote Carmen De Viboral 3300 Mts 330 Mill;330000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO555399082;Casa En  Venta ;250000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO580604293;Casa Con Piscina Privada Jacuzzi Temporadas Fin De Año;950000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO589144922;Lotes Desde 59 Millones Carmen De Viboral;60000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO584908597;Casa Vacacional Tocaima;50000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO518679476;Alquiler De Apartamentos Amoblados En Oviedo ;300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO557871117;Increible Apartamento Morros Cartagena Hotel Sonesta 6 Perso;280000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO594576525;Apartamento Amoblado Por Días En Medellín , Solo $50.000.;40000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599192210;Arquicasas Casas Prefabricadas Cali  - Valle;4150000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO592965790;Apartamento Alquiler Santa Marta Gaira Vacaciones Arcoiris;60000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO518679211;Arriendo Apartamento Amoblado En Laureles;200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO595068833;Finca Campestre Casa Blanca Carmen De Apicala;50000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO591594023;La Gran Vía Casa Vacacional Piscina Negociable - Permuta;250000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO594007046;Apartamento 804 Cartagena Alquiler Por Noches Frente Al Mar;99900;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO597820709;Apartamentos En El Rodadero Santa Marta Alquiler Casa Hotel;80000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO579204951;Finca Con Piscina Privada  Villavicencio Temporadas;950000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO579204942;Casa Quinta  Con Piscina Privada En Girardot Festivos;750000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO585449535;Apartamento En Arriendo Sabaneta 472-1738;1100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO596542607;Arriendo Apartaestudios Chapinero Alto Directamente;700000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO540938893;Finca Copacabana Villa Roca 1 Se Vende;2800000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO553588873;Calima, 1.100  M2;980000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO591604877;Alquiler Hermosa Casa En Girardot Peñalisa, Piscina Privada;850000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO518679190;Alquiler De Apartamento Amoblado Poblado;200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO573272027;Bocagrande Cartagena Protocolos Bioseguridad X Dias Semanas;140000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO533108081;Venta Casa Esquinera San Francisco;240000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO518680027;Alquiler Apartamento Amoblado En Sabaneta ;200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO592944274;Alquiler Finca En Chinauta Privada Vía Melgar Familias;40000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO579204898;Casa Quinta En El Peñón Girardot Vacaciones Festivos;1350000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO591964576;Finca Privada Anapoima;700000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO583509921;Apartamento En Arriendo Sector Buenos Aires En Medellín 42 M2;750000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555342095;Apartamento En  Venta ;149999000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO556469644;Apartamento Medellin Robledo Territorio Aurora Piso 10 . Se Vende;140000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO591612163;Arriendo Apto 90 M2;1400000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO595318622;Apartamentos En Rodadero, Santa Marta Y Cartagena Por Dias;50000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO593838773;Casa Melgar Cabañas La Loma;450000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO594993291;Casa Lote - Ojo - Casa Lote En Condominio De Acacìas Meta;74000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO558185802;En Venta Casa En Batan Mls 20-1097 Fr;950000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO556475287;Penthouse Bogotá Barrio Colina Norte Se Vende;560000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598158094;Apartamento En Arriendo Florencia Afidro 172-1103;580000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO543991242;Casa Prado Centro Medellin. Pisos 3 Y 4. Se Vende;380000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO579204878;Casa Campestre En La Calera Cerca De Bogota;400000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO595905814;Casas Prefabricadas Valle Montebello Somos Fabricantes;3980000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596401314;Apartaestudio Amoblado Medellin Arriendo Por Dias;60000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO592250170;Alquiler Apartamento Amoblado Económico X Día Medellin;70000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO593158220;Villa Isleña - Finca Privada Sasaima Descanso Y Naturaleza;35000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO518678650;Alquiler De Apartamentos Amoblados En Envigado X Dias Y Mes;200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO595273319;Apartamento En Arriendo Tintala 172-1046;720500;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO566184846;Casas En Venta Poblado 472-1530;3300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO555403904;Local En  Arriendo ;2500000;1;0;classified;gold_premium;False;;MCO50560;Inmuebles
+MCO596401340;Apartamento Apartamento  Amoblado Alquiler X Días Medellín;1800000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO531102385;Casa  Conjunto  Bosques Del Marquez  Ven Permuto;2400000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO571128870;Hermoso Lote En Guatavita;100000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO533108842;Venta Apartamento Duplex  Casa Linda Del Tunal;119000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO539009307;Apartamento En Venta Castilla Mls 21-603 Fr;160000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO533108337;Venta Casa Ubicada En El Barrio Quiroga;340000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557886451;Venta Casas Condominio Campestre En Combia ;428000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582167898;Apartamento En Venta En Los Colores ;235000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO548895442;Santa Helena, 5.000 M2.;350000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO554849834;Ganga Apartamento 63m2 Sabaneta;167000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO582781701;Estudio Webcam En Venta 4 Rooms 1 Zona De Monitor Y Asesoria;17900000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO593842212;Casa Quinta Melgar Cabañas La Loma;750000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO595778321;Alquilo Finca La Colina  A 20 Minutos Del Centro De Medellin;680;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO569387341;Venta Casa Barrio Comuneros 1;78000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594004693;Alquiler Apartamento Amoblado Económico Por Días En Medellín;100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO592782347;Casa De 3 Pisos Conjunto Residencial Alamedas De San Jose Iv;149000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO579204941;Casa Con Piscina Privada Temporadas;850000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO589125555;Casa 1 Piso En Itagui Excelente Ubicacion Villa Central ;355000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO533108084;Venta Casa Esquinera Kennedy Palenque;400000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557888001;Venta Casas Campestres Sector El Tigre Pereira;997000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO518677074;Arriendo Finca De Recreo -santa Fe De Antioquia;800000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO571128872;Se Vende Lote  4.000mtrs2  V.hatillo.;80000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO597796910;Casa En Venta En Ureña  Tachira Venezuela;45000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593395793;Asadero Restaurante Carne A La Llanera;26000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO540915402;Finca Copacabana Villa Roca 2 Se Vende;1300000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO573142883;Apartamento En San Andres Cerca A La Playa;60000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO596717988;Vendo Casa Conjunto Cerrado   Suba Villa Alsacia;240000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO563656391;Lotes En Guarne 2500 Mts Alto De La Virgen 250 Millones ;250000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO573432985;Lote En Venta En San Vicente Sector La Porquera;135000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO558640037;Vendo Finca Ganadera 420 Cuadras A 50´de La Dorada;2500000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO565743507;Arriendo  Apartaestudio En San Patricio Bogota 21-10;1300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO579204889;Cabaña Para Grupos En Coveñas Frente A La Playa;892000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO593784084;Restaurante Acreditado Super Oferta;200000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO585528453;Lote En Girardota Vereda Mercedes Abrego;185000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO551830050;Alquilo Apartamentos Por Dias En Santa Marta Y Cartagena;119000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO590316695;Apartamento En Arriendo Poblado 622-14744;1900000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO592940382;Venta O Permuta Por Propiedad En Miami;2500000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO591963004;Casa San Marcos Poblado;800000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO592999766;Alquiler Casa Campestre En Tocaima;40000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO580809586;Apartamento En  Venta ;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593311380;Congelamos El Valor De Tu Vivienda Por Un Año;7000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587056783;Casa Esquinera En Venta En Cali Sur Quintas Del Lili Valle Del Lili;320000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596401323;Apartaestudio Amoblado Medellin Arriendo Economico Por Dias;75000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO595378338;Venpermuto Finca Tulua Valle;1974;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO545769447;Casas En Venta Loma Del Escobero 622-5991;575000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO545476960;Casas En Arriendo Calasanz 622-12798;2000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO540358987;Finca El Santuario Via Al Carmen Se Vende-permuta;720000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO533108331;Venta Casa Monteblanco Sucre;220000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO555395823;Casa En  Venta ;319000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594165861;Vendo Apartamento En Ciudad Tintal Buen Precio;115000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596401329;Apartaestudio Apartamento  Amoblado Itagui Frente Al Poblado;100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO597719888;Lotes En Venecia Ant.ioquia ,https://www.ciudadelavenecia.co;58000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO535590233;Casa Prado Centro Medellin Se Vende;450000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO572755576;Vendo Casa  En Zona Franca, Fontibon, Bogotá;260000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO576537637;Lote  En Ciudad Del Sol Proyecto  Norte Popayan;159250000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO598532691;Hermosa Quinta Vacacional Melgar Tolima ;800000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO583628758;Alquiler Apartamentos Cartagena;160000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO554393821;Vendo En Cali Casa Quinta En Pance;6300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO536686564;Arriendo O Vendo Casa En Niza Bogotá;1350000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO554025610;Casa Condominio En  Venta ;2300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO533108333;Venta Casa Colina Campestre;335000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO518679005;Alquiler De Fincas En La Estrella Cod: 6256;1300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO551135674;Alquiler De Cabañas Alpinas En La Cabañita Santuario;110000;1;0;classified;gold_premium;False;;MCO164637;Inmuebles
+MCO576689621;Venta Casa Zuldemaida - Popayan Zona Norte;185000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO555685923;Vendo Hermosa Casa Condominio Cerrado  Chia  Mls 21-289;820000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO540725984;Precio De Oportunidad Venta Finca En Girardota;370000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO590323529;Casa Con Piscina Privada Lagomar;1700000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO567374862;Finca San Jeronimo Se Vende;3500000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO556469568;Finca Fredonia Antioquia Se Vende;610000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO596717982;Vendo Permuto Casa Campestre En Calatrava;1480000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO558640052;Vendo Agradable Casa Campestre En Armenia;650000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO554730148;Epectacular Casa Poblado 630m2;2800000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO578012297;Lote En Parcelación Las Gaviotas Cerca A Popayán;180000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO536337936;Venta  Casa En Conjunto Cerrado Chia;510000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595807465;Villa Isleña - Sasaima / ¡naturaleza Y Diversión Para Ti!;35000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO577865462;En Venta Apartamento En El Real Mls 21-235 Fr;360000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557886454;Venta Casas Campestres En Condominio Via Armenia;544620000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596465156;Vendo Hermosa Finquita 1 Ha Casa Campesina, Cultivos, Agua;230000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO590026363;Apartamento Completo  Amoblado Por Días Semana Mes;75000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO538939437;Franquicia Inmobiliaria Rentahouse Finca Raiz;3000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO593415295;Super  Local Comercial  Frente Al Portal De Las Americas;125000000;1;0;classified;gold_premium;False;;MCO50561;Inmuebles
+MCO574840584;Vendo  Casa Campestre Villas Yerbabuena Cundinamarca 21-838;2550000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594062690;Apartamento Amoblado Dos Habitaciones Calle 80;1200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO599105940;Construimos Tu Casa Icono Country;380000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO590951714;¡apartamentos Económicos En Rodadero Por Días Cerca Al Mar!;79000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO551487871;Apartamento En Arriendo Rionegro 622-13150;1400000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO579501933;Venta Casa Norte - Popayan;132000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO578012304;Lote Urbanizado Conjunto Cerrado Ciudad Del Sol;144430000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO593508504;Tinas Y Jacuzzis;750000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596239362;Venta De Restaurante,don Sancho;60000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO541108265;Penthouse Medellin San Lucas Se Vende;2700000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO576725611;Venta Casa Barata Villa Del Norte;128000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598925210;Sin Piscina  Se Alquila Finca Recreativa Tocaima;400000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO597661822;Apartaestudio Amoblado Medellin Arriendo Por Dias;50000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO593161741;Finca En Girardota Manga Arriba  Excelente Ubicación;680000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO595318215;Casa Con Piscina, Cinema,bar, Bocono, Cúcuta, Boconó;1400000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594430344;Hermoso Apartamento En El Mejor Sector Del Rodadero;160000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO534474555;Casa En  Venta ;560000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO556686235;Se Vende Casa Central, En Santa Fe De Antioquia, Apta Para Hostal. ;2750000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO555334110;Se Vende Casa En Hacienda San Simón;3300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO592259176;Casa En Venta Al Sur De Cali Valle Del Lili La Macarena;290000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO540315562;Finca En Gomez Plata. Se Vende ;600000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO578006090;Parcela 7765m2 Via Las Guacas Popayan;120000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO555686078;Vendo Casa Club Los Lagartos Suba 21-440;1152000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587523457;Restaurante Comidas Rápidas Pizzeria;28000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO518679012;Alquiler De Fincas En Copacabana Antioquia,;1200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO578006082;Casa En El Uvo Conjunto Nogal ;130000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO589778485;Finca Cafetera Y Ganadera, Zona Tranquila. Areas Verdes O2;220000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO579204920;Finca Piscina Privada Girardot Festivos Fin De Año;950000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO557887171;Venta Proyecto Casas Cerritos Pereira ;275900000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO592162786;Excelente Casa Nueva A Bajo Precio ;125000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582936622;Casa En  Venta ;110000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593842642;Melgar Cabañas La Loma;200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO579204931;Casa Con Piscina En San Andres Economico Temporadas;85000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO533108839;Venta Casa Barrio Colina Campestre;430000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO540704985;Casas En Arriendo Loma Del Escobero 622-10540;4800000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO533108850;Venta Casa Parques De Granada;238000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO555350656;Apartamento En  Venta ;100000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557886459;Venta Casa Esquinera Pereira Totalmente Terminada;165000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO579204950;Finca Con Piscina Privada  Anapoima Festivos Fin De Año;1300000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO591963976;Negocio En Venta. Don Pago En Jumbo 20 De Julio Btá.;38000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO559097944;Vendo Oportunidad  Finca Chia Cundinamarca 21-842;1;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO582989737;Arriendo Apartamento Victoria Norte;1800000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO579204918;Casa Con Piscina Privada En Girardot Vacaciones;950000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO533108334;Venta Apartamento Barrio Cedritos;270000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO592961421;Quinta El Corcel Cachipay;38000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO574739567;Apartamento En Arriendo Sevilla 622-14172;920000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO594062450;Apartaetudio Amoblado Calle 80 Económico;1100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO568149323;Lote 4.700 M2 Girardot Cundinamarca;149000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO596158362;Arriendo Apartamentos En El Rodadero A Cero Mts De La Playa!;90000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO593012368;Casa De Dos Pisos 2 Alcobas 1 Baño Cocina Y Patio Con Césped;122000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO592475804;Hacienda El Tesoro, Finca Puerto Lopez Meta;3500000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO580684789;Venta De Apartamento 70 Metros Sector Sabaneta (mayorca);260000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO539852870;Apartamento En Venta Barrio Cristobal 622-12550;145000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598008694;Apartamento En Arriendo Santa Cecilia  Modelia 172-18;960000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO594482328;Vendo Mobiliario Toldo Kiosco Para Tienda Negocio;3000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO587058293;Casa En Venta Al Norte De La Ciudad De Cali B/ Brisas De Los Alamos;162000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO578006091;Finca 5 Hectareas Cajibio  - Cauca;450000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO574012259;Apartaestudio En Venta En Santa Marta;230000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO554671782;Local 33m2 Centro Comercial Tranvia Plaza;640000000;1;0;classified;gold_premium;False;;MCO50561;Inmuebles
+MCO558640016;Vendo Casa Campestre En Maracay Cerritos;1300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599105953;Tu Pones El Lote... Nosotros El Diseño Y La Construccion;475000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557887998;Venta Casas Campestres Via Armenia-pereira;685500000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595191481;Quintas De La Bocana - Último Piso, Vista Y Privacidad;231000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO577199968;Venta Apartamento Laureles, Con Terraza ;600000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO533108342;Venta Casa Ubicada En El Barrio Quiroga;295000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO540049696;Apartaestudio En Arriendo Belen Los Molinos 622-12579;950000;1;0;classified;gold_premium;False;;MCO6395;Inmuebles
+MCO594424526;Hermosa Finca;550000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO558640028;Vendo Fk Ganadera 187 Cds Por La Dorada;1870000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO582355417;Apartamento Venta En El Poblado Santa María De Los Ángeles;335000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO573432604;Casa En Venta Sector Conquistadores En Medellin;550000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595683000;Apartamento Venta Mosquera Conjunto Puerto Luna Negociable;128000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587057929;Apartamento En Alquiler O Venta Cali Sur-porto Alegre Bochalema;132000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO580470024;Finca En  Venta ;650000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO576689618;Venta Apartamento Para Estrenar Torres De Milano;125000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO536527992;Casas En Venta Altos Del Poblado 472-473;1400000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598402320;Apartamento Con Balcon Y Vista Panoramica Al Mar;750000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596307891;Girardot Casa Campestre (nariño Cundinamarca);135000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO580853123; Apartamento Para Estrenar Sector Serena Del Mar - Cartagena;510000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO579204965;Cabañas En Palomino Guajira En Alquiler Vacaciones Economico;350000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO590212349;¡apartamentos Económicos En El Rodadero Por Días!;85000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO565180809;Apartamento En Arriendo Laureles 622-13667;3200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO558639934;Vendo Casa Campestre En Quimbaya (panaca);850000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO556411140;Casa Campestre En  Venta ;1600000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598190334;Casas Prefabricadas  Carrera 45 #134 Sur Variante Caldas;15000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO566107255;Venta De Lotes Condominio Via Pereira-armenia;205773100;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO587058157;Casa Campestre En Venta Jamundi Las Mercedes;2200000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587699476;Cabañas El Campanario Coveñas Sede Punta Bolivar;340000;1;0;classified;gold_premium;False;;MCO164637;Inmuebles
+MCO557887188;Venta Casa Campestre Via El Caimo Quindio;1200000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557887965; Casa Campestre Pueblito Cafetero Pereira;795000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO533108332;Venta Casa Candelaria;240000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593714338;Casa En Paraiso Barranquilla;310000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596401353;Apartaestudio Amoblado Económico Por Días En Medellín;70000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO533108078;Venta Casa En Timiza;360000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557863717;Franquicia Inmobiliaria Rentahouse Finca Raiz;3000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO579204959;Casa Campestre Santa Veronica  Barranquilla Frente Al Mar;900000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO597974269;Habitacion Arriendo Nicolas Federman, Baño Privado Servicios;550000;1;0;classified;gold_premium;False;;MCO60851;Inmuebles
+MCO582355418;Apartamento Penthouse En Venta En Simon Bolivar;550000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO579469087;Vende Casa Para Estrenar En Picacho;930000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582718908;Lotes En Arriendo Rionegro 622-14472;11000000;1;0;classified;gold_premium;False;;MCO50177;Inmuebles
+MCO582942869;Apartaestudio En  Venta ;115000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO589589839;Apartamento En Arriendo Villa Pilar 279-9067;706000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO533108339;Venta Apartamento Tunal Unidad Atlántico ;138000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO548551613;Casas En Venta San Lucas 622-11783;1575000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO580306203; Venta Finca En Girardot Cundinamarca;780000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO592965967;Finca En Arriendo Cerritos Pereira Eje Cafetero;800000;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO596071895;Casas En Arriendo Belen 622-15048;1000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO547966291;Venta Casa Prados Del Limonar;820000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO539010916;Apartamento En Venta 7 De Agosto Mls 21-605 Fr;210000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO580853227; Casa, Dos (2)  Apartamentos Las Gaviotas. Cartagena;450000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557888090;Venta Espectacular Casa-lote Tebaida Vía Al Valle ;380000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO594608638;Casa Totalmente Terminada Con Closets ;135000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568135520;Venta Casa Medianera Conjunto Avda De Las Américas;225000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO578199442;Casa En  Venta ;420000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582336383;Venta Sala Negocio Videojuegos;35000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO565157743;Venta Casa Condominio El Ingenio;680000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO585538662;Casa Arriendo La Calera Poblado ;11000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO556130948;Apartamento En Arriendo Cumbres 472-1483;1800000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO558634557;Venta De Finca Productiva En Rionegro, Vereda Los Pinos;1200000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557887999;Venta Apartamento Cerca A Villa Olimpica Pereira;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595012191;Apartamento Nuevo 3 Habitaciones ;139900000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO554912306;Apartamento En Arriendo Poblado 472-1441;6800000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO540566835;Venta Casa Pance;2300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO556469652;Finca San Jeronimo El Hato Se Vende;1100000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO533108088;Venta Casa Las Cruces;185000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO551792701;Apartamento En Arriendo Aves María 472-1359;2000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO558185769;En Venta Casa En Batan Mls 20-1097 Fr;950000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595411522;Vendo Espectacular Casa De 4 Pisos Ideal Para Negocio;590000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587627001;Apartamentos  En Cartagena Cerca A Lugares Turísticos;450000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO533109138;Venta Apartamento Spring Norte;248000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO572326185;Km 23, 5.100 M2.;270000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO593722119;Casa Con Jacuzzi Y Piscina Privada;1500000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO582355416;Apartamento En Venta En Laureles;455000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO580850681;Casas Campestres Cerritos El Tigre Pereira;855040000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO586710299;Bodega Industrial En Puente Aranda, Bogotá;5800000;1;0;classified;gold_premium;False;;MCO50565;Inmuebles
+MCO574195580;Ciudad Salitre Venta Apartamento Duplex;535000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO584927400;Finca En Santa Fe De Antioquia El Tunal;2500000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO538912647;Locales En Arriendo Belen 622-12481;1800000;1;0;classified;gold_premium;False;;MCO50560;Inmuebles
+MCO554393828;Vendo En Cali Hermosa Casa En Valle Del Lili;350000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587886452;Casa Quinta En El Peñon;1400000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO578012302;Venta Parcela Altos Del Cofre Cauca;85000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO578199741;Finca Via La Cumbre Restrepo  Vereda La Playita;135000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO580854679;Apartamento En Venta En Laguna Club, Cartagena;589000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO580821957;Apartamento En Crespo Bien Ubicado - Cartagena;190000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO592235560;Casa En Calazans, De Tres Plantas Y 4 Habitaciones.;450000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO585002656;Vendo Casa Villas De Granada,bogotá;260000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593590369;Casa Finca De 6800m2 Cerca De Arabia;300000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO556686754;Casa Campestre En La Loma Del Escobero, Envigado;2200000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO554393882;Vendo En Cali Apartamento En Pacara;156000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO539930266;Casas En Arriendo Laureles 622-12560;6000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO568135555;Venta Casa En Conjunto Cerrado En Dosquebradas;220000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO551817595;Apartamento En Venta Robledo, Medellin;115000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO594165297;Apto, Exelente Ubicacion Para Estrenar, Recibo Vehiculo;194000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593951476;Lote 1400 Mtrs Condominio Los Lagos Fusagasuga, Dos Puntos D;230000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO576725615;Casa Tipo Americano Parcelación La Fortaleza ;595000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587058028;Casa En Venta Al Oriente B/ Ciudad Del Campo;190000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO552731310;Vendo Apartamento Bosa San Miguel Bogotá;90000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO554285192;Casas En Venta Bosques De La Alhambra 2790-21431;230000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594004595;Apartaestudio Amoblado Medellin Arriendo Economico;1750000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO571685795;Chia Altos De Hycata Linda Casa En Venta;4150000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO555222780;Lotes En Venta Centro Guarne 622-9135;230000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO581085019;Apartamento En Venta Segundo Piso En El Municipio De La Ceja;135000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO533108089;Venta Casa Rentable Candelaria;350000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO556469643;Apartamento Medellin Poblado Se Vende;1500000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO533404665;Se Vende Hermosa Quinta;720000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO579204956;Apartamento  En El Rodadero Santa Marta Vacaciones;360000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO585707702;Casas En Venta Gualanday 622-14618;820000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO565672133;Apartamento En Arriendo San Joaquin 472-1512;1700000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO596030642;Altos Del Prado Balcon 4 Alcobas 3 Baños Ascensor;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO558639943;Vendo Lotes Campestres Cerca A Guasca;4650000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO594178101;Casa Quinta Con Piscina Privada;1100000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO598141467;Lote Para La Venta En El Guaico ;130000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO581547649;Espectacular Penthouse En Santa Ana, Vista Panorámica, Premium!;1500000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595768118;Finca Ganadera..se Vende O Se Permuta;800000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO555685916;Vendo Casa Condominio Cerrado Chia  Cudinamarca 21-288;650000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO592697668;Venta Hermosa Casa Cerros Orientales Bogota;895000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598894148;Construccion De Casas Campestres ;400000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO597568618;Arriendo Apartamento Suba Bogota Apartaestudio;600000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO591765056;Parcelacion Campestre Lotes San Rafael Antioquia;35000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO563070788;Espectacular Aparta Hotel Laureles Nuevo;3600000000;1;0;classified;gold_premium;False;;MCO50962;Inmuebles
+MCO540114848;Dapa, 15.000 M2.;1500000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO596754759;Lotes Baratos - San Vicente - Antioquia;90000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO597931214;Casa Cabaña Vacacional Girardot;35000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO582187868;Casas En Arriendo  Belen Rosales 622-14455;2500000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO594610135;Lote, Parcelacion Monte Horeb, San Felix, San Pedro;285000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO579204936;Apartamentos Economicos San Andres Vacaciones Fin De Año;650000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO573392691;Venta De Lotes Condominio Via Pereira-armenia;180000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO558639176;Finca En Guasca;720000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO557888104;Venta Casa Campestre Malabar Cerritos Pereira;2650000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595070825;Casa Ebenezer;165000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO575167159;Casa Lote Gran Potencial  20 De Julio Cundinamarca 21-809;485000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO479708834;Se Vende O Se Permuta Por Propiedad En Bogotá ;800000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO596943046;Apartamento En Arriendo Madera 622-15128;950000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO577186265;Venta Casa En La Paz (biplanta) Popayan ;165000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO586907855;San San Andrés Little House 3 & Balcony View 4 By Bbbsai;99999;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO536337923;Venta Casa Rentable En Boita;440000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO585410583;Apartamento En Arriendo Camino Verde 622-14593;1400000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO536337934;Venta Casa En Muzu;290000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598541314;$ 1.200.000   Apto. 102 Mts2   3 Hab.  2baños ,garaje.;1200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO568149286;Lotes Urbanos Para La Construccion De Su Casa Campestre;28260000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO533108828;Venta Apartamento Barrio Salitre;860000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO582414051;Vende Casa Con Piscina En Conjunto Cerrado;850000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO590218288;Parcela La Victoria Popayán;135000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO587091007;Apartamento En Venta En Cedritos 21.1029 C.o;490000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO568149353;Finca De 5 Hectareas Villa Marianns Flandes Tolima;350000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO576770706;Ginebra, 10.000 M2.;995000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO582936518;Casa Campestre En  Venta ;790000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO577744386;Arriendo Apartamento Victoria Norte Suba Bogota 21-331;1300000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO569050253;Casa Campestre Urbanización Espigas, En Sabaneta, ;980000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO539003371;Casas En Venta San Lucas 622-12485;1300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO559307265;Finca La Pintada Antioquia Se Vende;1600000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO506249574;Venta De Finca Cafetera Vereda Corazón El Morro ;6600000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO589660038;Arriendo Espaciosa Casa El Nogal Bogota 21-187;28000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO572533249;Finca En Venta Combia Pereira ;400000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO557887197;Ultimas Unidades Casas Dosquebradas Vive En Tranquilidad;203000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO580291546;Vendo Casa En Villavicencio Meta;370000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595255868;Casa De 4 Habitaciones Y Dos Baños;430000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557888009;Venta De Hermosa Casa Esquinera - La Villa Pereira;485000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598208512;Apartamento En  Victoria Norte Rah Co: 21-331;1300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO587027821;Casa Arriendo Los Colores, Medellín ;650000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596802588;Finca Cafetera Pequeña Con Pastos;110000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO590397463;Se Vende Finca Lechera En Pereira, La Estrella ;5120000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO561501109;Apartamento En Venta En Lisboa Mls 20-201 Fr;285000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO536686562;Venta  Casa En Mazuren  Bogota;335000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594609092;Finca Plana Paisajismo Hermoso;390000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO594050521;Apartamento Nuevo En Robledo, La Pilarica, Medellín Estrenar;119000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596352189;Casa Campestre, Muy Cerca De La Ciudad, En Venta - (finca);200000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO546711211;Apartamento Alquiler ;180000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO593267626;Apartamento En  Arriendo ;1200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO593268008;Apartaestudio En  Arriendo ;850000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO556469650;Apartamento En Sabaneta Las Lomitas, Se Vende;445000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO594425029;Venta  Finca Mariquita Tolima;280000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO518679059;Alquiler De Fincas En San Jerónimo Antioquia;1;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO566876321;Vendo Apartamento En Gran Granada,bogotá;175000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO552308231;Casas En Venta La Enea 2790-21381;345000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO585354987;Apartamento En Arriendo Santa Maria De Los Angeles 472-1734;1450000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO586906797;San San Andrés Casa Vacacional 2 By Bbbsai;199000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO536667485;Casa Independiente En El Retiro Sector La Fe_vencambio ;820000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO558042729;Arriendo Apartamento En Sotileza Mls 21-926 Fr;3500000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO568120280;Privilegiado Apartamento En Venta - Sector Alicate, Itagúi C;185000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO591964113;Finca Con Piscina Privada;1300000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO591234943;Contenedor 40 Pies High Cube Nacionalizado;2500;1;0;classified;gold_premium;False;;MCO6396;Inmuebles
+MCO593426160;Lote En La Via A San Vicente Chaparral 160 Millones 2.050 Mt;160000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO593591614;Casa Recien Remodelada Venta Rapida $450 Millones;450000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596954861;Finca Familiar Privada;1000000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO595272312;Apartamento En Arriendo Villa Carmenza 172-85;750000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO557859584;Apartamento En Venta Castilla Mls 21-603 Fr;160000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593494686;Vendo-permuto Finca En Produccion Y Descanso La Mesa (cund.);1250000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO573432708;Casa Campestre En Venta Y/o Arriendo En El Alto De Las Palmas;3500000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568149321;Venta De Casa Condominio Brisas De La Montaña Nariño Cundina;230000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO566836784; Vendo Apartaestudio  En Sta Barbara;290000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593308358;Apartamento Nuevo Para Estrenar Santa Fe De Antioquia 3 Alco;120000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO556543782;Casa En Venta Villeta;400000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO572531410;Finca Para La Venta Cerritos Pereira ;850000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO557888118;Exclusivo Penthouse Pereira,el Mejor Sector Alamos;754500000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO558640110;Apartamento En El Rodadero, Santa Marta;450000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO533108060;Venta Finca Vía Girardot;465000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO555685926;Apartamento En Venta Colina Campestre  Bogota 21-384;450000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596759950;Apartamento En Arriendo El Esmeraldal 622-15097;2000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO587075858;Venta Casa Con Vista Panorámica Y Zonas Verdes Envigado, El Escobero;2600000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594558380;Vendo Casa  Santa Teresa  Bogota 21-1009;380000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598552813;Hermosa Casa Quinta En Carmen De Apicala;45000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO592654223;Local En  Arriendo ;1500000;1;0;classified;gold_premium;False;;MCO50560;Inmuebles
+MCO594454782;Hermosa Finca De 200 Hectáreas;13000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO518678900;Alquiler De Apartamentos Amoblados En El Poblado;200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO591968300;Finca Con Piscina Anapoima;800000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO595846357;Casa Bifamiliar 2 Y 3 Piso. ;170000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO581135317;Vendo Apartamento Quinto Piso Chapinero Bogotá;210000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO556411244;Apartamento En  Venta ;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO569816523;Venta Apartamento Duplex, Loma Del Escobero;450000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595889176;Apartamentos Cartagena Alquiler Por Dias;180000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO568610580;Venta Apartamento Ciudad Jardin;450000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557886445;Reserva Campestre Sector Pueblito Cafetero Pereira;835000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582355407;Apartamento En Venta En Los Colores;400000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557888100;Venta Vista  Y Lote Cerritos La Virginia Pereira;225400000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO596920782;Vendo O Permuto Lote En Condominio De  250y 300 Mts 40 Y 45;40000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO595403404;Vendo Chalet En Santa Elena Cerrito;250000000;1;0;classified;gold_premium;False;;MCO50753;Inmuebles
+MCO583850859;Lote En  Venta ;348000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO558641194;Vendo Fk Cafetera 106 Cds Santa Rosa De Cabal;3710000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO554350568;Casas En Venta Avenida Alberto Mendoza 2790-21436;1000000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO554670845;Lindo Chalet Envigado Esmeraldal 1.200m2;1200000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO592627782;Apartamento En Arriendo Suramerica 472-956;1500000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO582537239;En Planos,  La Reserva  Reventa, Precio Inferior;165000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595528053;Casa Campestre En Manizales Sector San Bernardo Del Viento;1470000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598208724;Casa En  Minuto De Dios(bogota) Rah Co: 21-648;320000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595970562;Venta De Apartamento Nuevo Frente Al Mar Vista Espectacular;319000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO564212889;Casa En Venta En Modelia Occidental Mls 20-1242 Fr;890000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO558639957;Vendo Terreno En Sopó (cund) 220000 M2  Inversionistas;80000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO568148923;Venta Del Finca Campestre Y De Producción Tocaima Cundinamar;1636000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO533108326;Venta Casa Rentable Barrio Nuevo Muzu;480000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598209536;Casa En  Panorama Del Campo Rah Co: 21-121;410000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582355429;Apartamento En Venta En San German;275000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596406240;Casa De Verano Cerca A Girardot - Piscina Privada - Flandes;400000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO541129334;Casa La Estrella Se Vende;850000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO539014388;Venta De Apartamento Nuevo En San Martin Mls 20-355 Fr;253000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO587027820;Casa Envigado En La Calleja;8000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO595866548;Hermosa Finca De Descanso En Doradal (antioquia);900000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO598154162;Cabaña En Santa Elena;335000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO557888107;Venta Apartamentos Sierra Viento Pereira;226400000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO590255314;Se Vende Casa Campestre Malabar Cerritos;2100000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO546410249;Arrayanes Jardín Interior Balcones Cada Habitación Con Baño;4600000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587057923;Casa En Venta Al Oriente De La Ciudad De Cali B/ Morichal;210000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596401304;Apartamento Amoblado Por Días En Medellín;70000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO479708335;Vendo Lote En Fusa Esquinero Con Vista Espectacular;62000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO533108086;Venta Casa Barrio Quiroga;500000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO533108316;Venta Casa San Francisco;500000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO554393878;Vendo En Cali, Apartamento En El Oeste;540000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO591740876;Casa De 3habitaciones En Neiva;120000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO597965818;Casa En Pance Para Estrenar;3900000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO591931754;Quinta Con Piscina Privada;1350000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO597015696;Vendo Parqueadero Chico Norte Bogota Mls 21-505 Rcc   ;36000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555685898;Vendo Apartamento A Estrenar La Balsa  Cundinamarca 21-647;300000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO568120103;Magnifica Casa Bifamiliar En Venta - Sector Prado Centro Cod;300000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO576358272;Venta Apartamento Remodelado Naranjal;125000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593526963;Venta De Fincas En Copacabana - Finca Para La Venta;2200000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO587647452;Aparta Estudio Economico Prados Del Norte Popayan;125000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO592263737;San Andres Sunrise Apto Rento Alquilo 6 O Mas Personas;799000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO590255742;Se Vende Casa Av. Simón Bolívar Dosquebradas;140000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO580852268; Buena Ubicado En Manga - Cartagena.;690000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO579204867;Cabaña En Palomino Guajira Cerca A La Playa Con Piscina;280000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO554393921;Vendo En Cali, Casa Valle Del Lili;340000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO579204836;Semana Santa En Curacao Para Parejas;976182;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO592194682;Casa Condominio En  Venta ;1950000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO575823356;Finca Para La Venta Sector Combia No Permuta;700000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO581718530;Lote En Venta Envigado La Catedral Excelente Ubicación;682000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO582355401;Apartamento En Venta En La Loma Del Indio;310000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO556686426;En Venta Lote En Parcelación La Lince, 3.187 M2, San Jerónimo.;260000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO590320651;Venta Apartamento Nuevo En Medellin, Zona Plana En El Poblado;1180000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO578006083;Venta Casa Vehicular La Paz - Popayán;250000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593469041;Alquilo Apartamento En San Andres A 1 Cuadra Del Mar;350000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO587075870;Venta Casa Ubicada Al Norte De La Ciudad, En Girardota Antioquia ;1350000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557888102;Venta Casa Cerritos Campestre Pereira;260000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594871331;Apto Ciudad Verde - Oportunidad;85000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555393428;Lote En  Venta ;1800000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO567106127;Venta Apartamento En Mazuren Bogota ;599000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO592805763;Vendo Barra De Café Acreditada En Centro Comercial-manizales;70000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO591974563;Alquilo Finca La Colina  A 20 Minutos Del Centro De Medellin;680;1;0;classified;gold_premium;False;;MCO6402;Inmuebles
+MCO582588054;Casa En  Venta ;439000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO536812079;Venta Apartamento Tunal Antiguo;178000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO558691477;Venta De Casa Barrio El Jardín Pereira;230000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO518679697;Fincas Para Alquilar En Guatape Cod: 6393;800000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO593667933;Vendemos Nuestra Casa Vacacional;220000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO573396327;Vendo Hermosa Y Acogedora Casa En Gratamira;460000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598208434;Apartamento En  Nueva Castilla Rah Co: 21-603;160000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO533108843;Venta Apartamento Santa Rita De Alsacia;278000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557704095;Casas En Arriendo Poblado 472-1504;6000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO591612364;Apartamento Chia Torres De San Francisco Club House;340000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595224735;Se Vende Centro Especializado En Cejas Pestañas Y Depilación;99000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO571961396;Lotes En Condominio Mirador Del Lago Bucaramanga;126346550;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO584759595;Venta Apartamento;135000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO582355426;Apartamento En Venta En Laureles Santa Teresita;895000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO575144340;Casa Quinta Con El Verdadero Espíritu Campestre 21-827;1180000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO530746701;Apartamento En  Venta ;330000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555685967;Vendo Casa En Cajica Cundinamarca 21-294;840000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593593844;Cabaña Frente Al Mar - Ubicada Entre Tolú Y Coveñas;59;1;0;classified;gold_premium;False;;MCO6395;Inmuebles
+MCO533108340;Venta Apartamento Barrio Cedritos;440000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO586719921;Apartamento En Venta 3 Habitaciones En Suba- El Salitre;235000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO581705948;Venta Casa Medianera Barrio Corales;330000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO554393913;Vendo Finca En El Carmen (dagua);450000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO573391968;Venta Casa Medianera Molivento De Las Villas 2;250000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO576689617;Lotes En Venta Cerca A Terraplaza;90000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO528128963;Finca En Venta. Produccion De Cafe A 3.5 Km. De La Panameri.;260000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO557888089;Venta Casa De 4 Habitaciones En Conjunto Dosquebradas;240000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO554025590;Edificio En  Venta ;8500000000;1;0;classified;gold_premium;False;;MCO50756;Inmuebles
+MCO575060869;Venta Lote Alto Del Nudo Pereira;300000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO575780411;Casa En  Venta ;620000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO597091541;Casa En Venta  120 Metros Cuadrados  Barrio Tejelo Medellin;215000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568135557;Venta Casa Esquinera Barrio Popular Modelo;1200000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587090984;Apartaestudio En Venta En Chapinero Occidental 21-352 C.o;155000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO594230898;Empresa Comercializadora De Pescados Y Mariscos  En Bogota;149900000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO576720366;Apartamento En Venta Suramerica 472-1622;375000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596560028;Apartamento En Venta Chapinero Alto, Bogotá;350000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595236743;Casa Quinta Piscina Privada;3000000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO594305578;Alquiler Casa En Villa De Leyva;1600000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO590317003;Se Vende Casa Campestre Pueblito Cafetero, Pereira;980000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO533108085;Venta  Apartamento Tunal Unidad Antioquia;138000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO582355435;Apartamento En Venta En Envigado Loma De Las Brujas;530000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO586975942;Finca Para La Venta Via Condina Pereira ;380000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO590115928;Casa En Venta, Barrio Villa Sonia, Bogotá ;570000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568495970;Apartamento En Venta Pueblo Viejo 472-1558;245000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO549848727;Arriendo Apartamento Amoblado Nogal 115 Mts;6800000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO556839531;Venta Casa Lote Barrio Belalcazar;210000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557887895;Venta Lotes Via Cerritos A Cartago Cerca A Pereira;420000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO581544712;Casa En Venta En Contador;650000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO591979723;Alquiler Apartamentos Amoblados Santa Marta Por Dias;120000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO592806350;Casa De Un Piso, 4 Habitaciones, Dos Baños, Sala Comedor;310000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593158573;Venta O Permuta Linda Finca En Barrancabermeja, 82 Hectareas;1350000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO592123556;Venta Finca Lechera En Santa Rosa De Osos;920000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO596026834;Santa Monica 3 Alcobas 2 Baños Cuarto De Servicio Garaje;300000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO536686563; Venta De Apartamento En  Gratamira  Bogota;1490000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO565175859;Casas En Venta Centro 622-13666;350000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO555685951;Vendo Casa En Cajica  Cundinamarca 21-196;480000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO556126627;Venta De Excelente Apartamento 61 Metros Sector La Estrella;240000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595553422;En Bosque De Pino Casa En Venta Mls 21-156 Lr;1500000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595976151;Venta Casa Campestre Medellín Poblado Vía Las Palmas ;1890000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595775727;Finca San Jerónimo Parcelacion Vigilancia 24h Precio Ocasión;390000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO585304942;Chico Norte, Arriendo Consultorio/oficina;4400000;1;0;classified;gold_premium;False;;MCO50560;Inmuebles
+MCO582355412;Apartamento En Venta En Florida Nueva;340000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO577247057;Sierras Del Moral Casa 350 Mt Jacuzzi Sauna 4 Garajes Cbs;2300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO578116930;Venta Casa Montelugano ;270000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO590412726;Venta Casa Quintas Del Puente;380000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO558639971;Vendo Hermosa Casa Campestre Vía La Calera;2600000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596694039;Arriendo Apartamento Chico Navarra Bogota 21-103;2300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO589404244;Apartamento En Venta 3 Habitaciones En Villa Alcazar- Suba;140500000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO581991023;Venta De Apartamento En Belmonte Pereira;145000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO580307359;Vendo Casa En Salitre Greco Bogota;1300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO599155472;Guarne Antioquia, Casa Campestre En Unidad Cerrada;1300000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO594062731;Aparta-estudio Amoblado Independiente Calle 80;1100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO580152282;Vendo Apartamento En Itagui Sector Sur America;305000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO539024035;Apartamento En Venta Kennedy Mls 20-363 Fr;305425063;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO591982618;Arriendo Apartaestudios Para Estrenar;980000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO540808806;Venta Casa El Castillo Jamundi;449000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO597267455;Espectacular Finca De Descanso A 40 Minutos De Medellín;530000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO587626380;Apartamento Vacacional Cartagena;450000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO554230422;Casas En Venta San Joaquin 2790-21423;173000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582415201;Vendo En Cali Apartamento En Valle Del Lili;330000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO568602534;Bella Suiza, 2hab, 3 Baños, 2 Parqueos, $ 520 Mm;520000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO576285234;Casas En Arriendo Santos 279-19023;900000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO595794837;Apartamento En Cali En Venta B/torres De Comfandi ;125000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO579011488;Apartamento Cerca Al Parque De La Ceja;210000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO597273840;Hermosa Casa En Venta En El Municipio De Rionegro ;810000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568602521;Apto Santa Paula Exterior, 92m2 $ 600 Millones;600000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO578006440;Venta Parcela 4.000m2   Parcelación San Francisco Popayan;240000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO568161260;Venta Casa Obelisco De La Villa En Pereira;250000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO577199944;Venta Casa Familiar En San Lucas, El Poblado, Medellin;1080000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO555685906;Vendo Casa En Galerias  Bogota 21-810;523000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595280017;Supermercado En Venta  (excelente Ubicación Comercial);52000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO594557884;Arriendo Bodega Los Alamos Bogota 21-1135;4700000;1;0;classified;gold_premium;False;;MCO50565;Inmuebles
+MCO580602381;Apartamento Vacacional  Cali Cerca Al Centro De Eventos;293990;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO583872210;Apartamento Venta Precio Unico Ciudad Verde ,  21-888;120000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593355660;Apartamento Con Dos Habitación Y Un Baño Segundo Piso;165000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO535445406;Se Vende O Permuta Casa En Ubate Soacha Cundinamarca;270000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO553333994;Apartamento En Arriendo Laureles 622-13223;2300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO567131651;Venta O Arriendo Casa San Fernando 3 Baños;450000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO577085095;Apartamento En Arriendo Pueblo Viejo 472-1625;1200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO592470625;Se Vende Centro De Estetica Facial Y Corporal;85000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO597742782;Cedo Apartamento En Proyecto Segovia! Ya Esta Para Entrega!!;140000333;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO550771937;Arriendo Apartamento Ciudad Jardin;3200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO591895567;Apartamento Privado Sariebay $40.000 Xpna -min. 5 Pnas;40000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO596013238;Venta Apartamento Senderos Del Campo En Galicia;165000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598209384;Casa En  Cedritos(bogota) Rah Co: 21-782;500000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO591167570;Quinta Privada El Peñon;1950000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO577196537;Venta Casa Villa Del Norte Popayan;140000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO577323639;Apartamento En Arriendo Cedritos Mls 21-583 Fr;2500000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO595652439;Casa Amoblada Fusagasuga Conjunto La Colina;225000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO590935877;Casa En  Venta ;247000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595453570;Venta Apartamento Terramar Sabaneta-la Doctora;255000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593381270;Accion Zuana Beach Resort Santa Marta Semana 27 Años Impares;30000000;1;0;classified;gold_premium;False;;MCO6396;Inmuebles
+MCO597013935;Vendo Apartamento Chico Norte  Bogota 21-427;2620000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO533108845;Casa Marco Fidel Suarez Comercial;470000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO577327693;Espectacular Casa Altos De Yerbabuena Chia Se Vende Ganga;3000000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO539030567;Apartamento Duplex En Barrio San Luis Mls 21-620 Fr;310000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO589664409;Quinta Con Piscina Privada;2450000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO597068793;Casas En Venta;320000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557887181;Venta Casas Con Piscina Dosquebradas;240300000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594335181;Montaje Completo Salón De Belleza ;1;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO554393849;Vendo En Cali Apartamentos En Santa Teresita;1750000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO559475254;Venta De Apartamento En El Centro De Pereira;300000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO587091362;Apartamento En Venta En Cajica 20-35 C.o;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555498678;Casa Estrada Bifamiliar;487000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO533108315;Venta Casa En Conjunto Alameda Reservada;398000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO574515079;Vendo Apartamento En Brisas Del Caribe;128000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO578164050;Apartamento En Arriendo Loma Del Campestre 472-1643;5500000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO573396411;Apartamento En Venta, Santa María Del Lago, Bogotá;325000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO580816453;Lote En Girardota Vereda San Diego Excelente Ubicación;470000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO557887193;Venta De Lote En Parcelacion Cerritos Pereira;439500000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO594498227;Melgar Cabañas La Loma;100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO593165355;Alquiler Casa Villamaria ;1500000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO555686069;Arriendo Apartamento Santa Ana  Bogota 21-24;7200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO578933615;Se Vende Una Fanega Con Casa Para Terminar;200000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO582355403;Apartamento En Venta En Laureles Santa Teresita;430000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO554025673;Casa En  Venta ;400000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568135558;Venta Casa Esquinera En Bambú Dosquebradas;338000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568815071;Venta Casa Barrio San Fernando;680000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO571961408;Se Vende Finca En Girardota Sector Granadillos;620000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO580470745;Lote Parcelacion La Siria Titiribi Antioquia;465000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO577085144;Apartamento En Venta Poblado 472-1624;1200000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595638500;Arriendo Casa Esquinera Chapinero Occidental Mls 21-1030;7000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO595936633;Taganga Espectacular Casa Campestre Con Piscina 11m X 5.5m,;1290000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594561947;Vendo Apartamento Granada Norte Bogota 21-1236;350000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO579452381;Vendo Casa  86mts   El Pinar De Suba  Bogota 21-214;285000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593679628;Lote En El Peñol Antioquia Excelente Ubicación;218000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO585707262;Apartamento En Envigado El Dorado Excelente Ubicación;450000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO597259686;Casa Fusagasugá, Con 3 Apartamentos Independientes Y Garaje;360000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594564754;Arriendo Apartamento La Cabrera  Bogota 21-1043;10500000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO573396168;Apartamento En Venta En Bella Suiza, Bogotá;550000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO597014223;Vendo Casa Santa Ana Usaquen Bogota 21-442;1300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594004656;Alquiler Apartamento Amoblado Económico Por Días En Medellín;1900000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO595559060;Se Vende Hermoso Apartamento Barrio Serena. Bien Ubicado!;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO533108841;Venta Hermosa Casa Barrio Alameda;490000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO597709021;Espectacular Casa Campestre Conjunto Cerrado, Cota;550000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598208461;Apartamento En  Hayuelos(bogota) Rah Co: 21-166;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO565800147;Venta De Casa Campestre Vía Pereira Armenia;650000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593309308;Venta De Lote En Bitaco  La Cumbre Valle Del Cauca Oferta;130000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO595838819;Apartamento En Venta En Loma De Los Bernal;398000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO576689626;Venta Parcelas En Timbio;55000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO572533240;Casa Campestre En Venta Sector Malabar Cerritos ;1549000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO578129328;Finca Ubicada A 8 Minutos De Girardot Cundinamarca;349900000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO586710298;Bodega Zona Industrial,  Fontibon  Av. El Dorado,bogota ;130000000;1;0;classified;gold_premium;False;;MCO50565;Inmuebles
+MCO594572457;Vendo Apartamento En Guaymaral  Suba  Bogota 21-345;2050000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO536337937;Venta Apartamento En Ricaurte Cundinamarca;145000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO562266957;Apartamento En Venta Calasanz  Mls 20-229 Fr;355000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO582355389;Apartamento En Venta En Simon Bolivar;290000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO583166131;Venta Apartamento Castropol - El Poblado;559000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557886450;Venta  Apartamentos Sector Canaan Pereira;383000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO531102444;Local  En Cc Ventura Terreros Soacha  Se Arrienda O Se Vende;10600000;1;0;classified;gold_premium;False;;MCO50561;Inmuebles
+MCO595755871;Exelente Finca  /negociable;300000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO579446723;Apartamento En Venta Loma Del Esmeraldal;390000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO587956096;Casa Esquinera  En Venta Morinda Vittal ;180000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO538909288;Apartamento En Venta En Las Terrazas Mls 21-239  Fr;188000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593207632;Casa Condominio En  Venta ;1500000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595414103;Venta Consultorios En Cerritos - Pereira ;197066000;1;0;classified;gold_premium;False;;MCO179953;Inmuebles
+MCO595967603;Vendo Casa En Mosquera, Cundinamarca;220000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO580481203;Venta Casa Portal De La Hacienda Uno Soacha;110000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO577884970;En Venta Parcela  1.891 M2  Ciudad Verde Popayan;200090000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO597222367;Oportunidad Proyecto Nuevo Combia Pereira;511500000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO543814875;Apartaestudio En  Arriendo ;1300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO595976149;Venta Lote Para Parcelar En Rionegro Cerca Aeropuerto;3000000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO581961624;Apartamento En  Venta ;500000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO566106884;Locales En Arriendo Centro 279-18842;580000;1;0;classified;gold_premium;False;;MCO50560;Inmuebles
+MCO598208503;Casa En  Sabana Centro(chia) Rah Co: 21-808;390000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568149344;Lote De Hectárea Y Media Cercano A Girardot;195000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO597014518;Vendo Apartamento Colina Campestre Bogota 21-1307;320000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO587057935;Apartamento En Venta Al Sur Jamundi B/ Los Naranjos;150000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595683385;Apartamento Venta;185000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO594034980;Lote En Cementerio Jardines Montesacro;5000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO580852241;Casa Campestre Venta Via Aeropuerto Armenia Q.;1000000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594448014;Venta De Edificio En El Poblado Ii (6 Rentas) Para Estrenar Pereira;530000000;1;0;classified;gold_premium;False;;MCO50756;Inmuebles
+MCO598209530;Casa En  Vereda Fusagasuga Rah Co: 21-927;420000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593629681;Apartamento 3 Habitaciones 2 Baños Belen San Bernardo;255000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595063219;Apartamento 3 Habitaciones;260000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593741061; Lotes Campestres ;60000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO539041172;Apartamento En Venta Mazuren Mls 21-621 Fr;330000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO597282872;Casa En  Venta ;150000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595352418;Ganga Supermercado Y Licorera Negociable;44000000;1;0;classified;gold_premium;False;;MCO50530;Inmuebles
+MCO589428138;Hermoso Apartamento;175000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555685924;Arriendo Casa En Santa Barbara Central  Bogota 21-886;22000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO580855216;Venta De Apartamento En Crespo, Cartagena. ;630000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO533108348;Se Arrienda Apartamento Barrio Mandalay;1050000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO592623197;Apartamento Tintal Venta Portal De Castilla 3;153000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO578579424;Casa En Soacha En Bogota ;430000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO584927398;Casa En Venta En Envigado Loma Del Atravesado;970000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO590857577;Apartamento Arriendo Poblado, Medellin;6000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO581546327;En Venta Espectacular Apartaestudio Cedritos;350000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598372459;Apartamento Venta Sur Cali Cascadas De La Bocha Bochalema;155000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO540912466;Jamundí, 224.000 M2.;2000000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO581546927;Vendo Espectacular Penthouse Cedritos;780000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO554748386;Super Local 500m2 Barranquilla Rentando;1300000000;1;0;classified;gold_premium;False;;MCO50561;Inmuebles
+MCO593290992;Apartamento En Venta 3 Habitaciones El Verbenal- Usaquén;234500000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO586060721;Casa En  Venta ;880000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO556541181;Casa En Venta Barrio El Jazmin;495000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO578199740;Estrene Casa Campestre En Rozo ;580000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582355419;Apartamento En Venta En Envigado En La Loma De Las Brujas;870000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO552863142;Casas En Venta Peralonso 2790-21399;280000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO564923800;Lotes En Venta El Retiro 622-6689;8000000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO595403937;Arriendo Apartaestudio Las Galerias Bogota 21-1124;1100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO536337940;Venta Apartamento Barrio Cedritos;355000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598208452;Apartamento En  Hayuelos(bogota) Rah Co: 21-389;240000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO590465942;Apartamento En Venta Al Sur B/ Primero De Mayo;345000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO569408037;Venta Casa León 13;185000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO534007877;Bodega En Arriendo, Villavicencio ;4000000;1;0;classified;gold_premium;False;;MCO50565;Inmuebles
+MCO555980064;Vendo Casa Yerbabuena Cundinamarca 21-357;3300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO590457724;Apartamento La Estrella Suramerica Verde Vivo Ceiba Sagrada;520000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596464569;Apto En Envigado Centro - Precio Por Debajo Del Mercado;178000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596861156;Vendo Casa Esquinera Conjunto Cerrado Girardot;279000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO537796400;Vendo Casa Suba Lombardia Bogotá;220000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO581546319;Vendo Hermoso Apartamento Nicolás De Fedeman;400000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO566876324;Vendo Apartamento En Gran Granada,bogotá;290000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO539810081;Apartamento En Arriendo La Mota 622-12545;2300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO557863382;Casa En Venta En Bonanza Mls 20-1145 Fr;900000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598233922;Casa Quinta Privada Melgar;1150000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO592246402;Venta Casa Medianera Urb. Los Alcázares;280000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO579502383;Venta Parcela Vereda Florencia 10.000m2 Popayán;250000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO596683531;Apartamento En Arriendo Suramerica 472-1160;1700000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO594483870;Venta En Casa En Kennedy Central De 3 Pisos;395000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593524919;Apartamento Madera Nativa Bello Antioquia;125000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO594294688;Casa En Excelente Ubicación, Parqueadero Propio;300000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598130126;Fincas En Venta Ricaurte Cundinamarca;750000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO596054234;Multifamiliar Real 75 Aptos Para Estrenar  59m2 56m2 Y 55m2;276500000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557887972;Venta Casas All In Home Cerritos -  Pereira;624300000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598209489;Apartamento En  Madrid Rah Co: 21-1045;118750000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO553982028;Casa En  Venta ;270000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO592610506;Vendo Apartamento Directamente No Comisionistas!!!!!;680000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593524711;Casa En  Venta ;155000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO591604715;Hermosa Finca Campestre Cafetera. ;450000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598209483;Casa En  Portales Del Norte(bogota) Rah Co: 21-950;1438500;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO593102586;Venta Apartaestudio En San Lucas, Poblado, Super Ubicación Medellin;490000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO594354019;Apartamento En Arriendo Los Agustinos 279-19350;650000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO554565903;Casas En Venta Arrayanes 2790-21454;190000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO540672894;Apartamento En  Venta ;140000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO591157343;Apartamento En Arriendo Poblado 622-14786;6500000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO557886464;Venta  Apartamento Nuevo En San Silvestre Pereira;211617500;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO578087078;Bodega En Arriendo, Fontibon, Bogota ;12000000;1;0;classified;gold_premium;False;;MCO50565;Inmuebles
+MCO564729054;Vendo Casa En La Merced De 3 Niveles;450000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO557886448;Oficina En Renta Sector Alamos Pereira;3198000;1;0;classified;gold_premium;False;;MCO6401;Inmuebles
+MCO557888011;Venta Ultimos Apartaestudios Sector La Popa Dosquebradas ;158900000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO582355427;Apartamento En Venta En Envigado En La Loma De Las Brujas;580000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598046440;Venta O Permuta Por Propiedad En Miami;2500000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO592372248;Vendo Apartamento 3 Habitaciones Totalmente Terminado ;130000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO582355428;Apartamento En Venta En Envigado Las Antillas;347000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555686091;Arriendo Casa Nueva Autopista Bogota 21-991;6000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO587059495;Apartamento En Venta En Pasadena 19-1215 C.o;370000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557887979;Venta Apartamentos 3 Habitaciones De Lujo En Pereira Risaralda ;518548000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557886462;Venta Casas Campestres A 3 Minutos De Cerritos;755100000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO591963931;Casa Quinta Familiar;1800000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO598141464;Apartamento En Venta En Segundo Piso En Unidad Cerrada En La Ceja;285000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO574565542;Venta De Lotes Residenciales Para La Construcción De Su Casa;25900000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO593164991;Alquiler Apartamento En El Velez, Manizales;1100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO576285627;Fabuloso Apartamento En Arriendo  Cedritos Bogota 21-583;2500000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO536337933;Se Arrienda Bodega En San Benito;4800000;1;0;classified;gold_premium;False;;MCO50566;Inmuebles
+MCO593001074;Bodega Zona Industrial Montevideo, Bogotá;13500000;1;0;classified;gold_premium;False;;MCO50565;Inmuebles
+MCO556543773;Venta Casa Campestre Palma Real;540000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568149308;Lote Esquinero 124 M2 Tocaima Cundinamarca Brisas Del Sol;58500000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO574738910;Venta Apartamentos Sector Frailes Dosquebradas;133150000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593370730;Venta De Apartaestudio En Buenos Aires;137000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO552742652;Apartaestudio En Venta Los Alcazares 2790-21392;95000000;1;0;classified;gold_premium;False;;MCO6396;Inmuebles
+MCO591963673;Finca Vacacional Anapoima;1800000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO573276008;Apartamento En Venta Poblado 622-14110;490000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO573395510;Vendo Apartamento En Santa Barbara Oriental;585000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557886440;Venta Lotes Condominio Via Cerritos-la Virginia;456500000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO553378778;Apartamento En Arriendo Las Palmas 472-1390;3000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO571961058;Vendo Apartamento En Laureles Sector Nogal Negociable;520000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO556543777;Casa En Venta Barrio Colombia;650000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595838818;Apartamento En Envigado Las Brujas - Punta Del Parque;698000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO540524761;Venta Finca En El Quindio;1700000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO597596419;Apartamento En Arriendo Villa Claudia;1100000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO592166662;Casa En  Venta ;140000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO579464281;Apartamento En Arriendo Poblado 472-1660;3700000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO596466909;Casa Barrio Altamira 4 Pisos Junto Al 20 De Julio Recibo ;130000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594427423;En Venta Apartamento Niquia Para Estrenar;217000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO591712814;Apartamento Chapinero Alto Bogota - Gran Ubicación Y Vista;1200000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598930417;Finca Ebejico Antioquia Aguacate Hass - Avocado Farm;480000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO531102880;Casa  Tenjo  Sector El Porvenir Se Vende;320000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598373279;Venta Apartamento Brisa De Los Alamos Cali;115000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO592974990;Espectacular Casa Adecuada Para Oficinas Única En La Zona.;32500000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO582355404;Local En Venta En Los Colores;495000000;1;0;classified;gold_premium;False;;MCO50561;Inmuebles
+MCO557887186;Venta De Hermosa Casa Campestre Cerritos Pereira;1200000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO583167722;Apartamento En  Venta ;900000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO586973319;Apartamento En Venta En Villa Alsacia 20-990 C.o;325000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595832467;Casa En Venta En Laureles El Nogal;1100000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596030412;Ciudad Jardin Balcon Con Vista Al Rio 3 Alcobas 2 Baños;279000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO597555162;Hermosa Casa;430000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO533547083;Préstamos Sobre Hipoteca O Prenda;150000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO587074691;Venta Casa Campestre Pueblo Queremal;190000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO598208431;Casa En  Vereda Bojaca(chia) Rah Co: 21-589;265000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594973552;Ganga Lote En El Peñol Antioquia Excelente Ubicación;209000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO595063124;Apartamento En El Poblado - Los Balsos - Medellin;690000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596167084;Espectacular Apartamento Remodelado Estilo Americano;200000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555686096;Vendo Apartamento Pontevedra  Bogota 21-215;465000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557888105;Amplio Apartamento Remodelado En Pinares Pereira;320000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO597014366;Venta Apartamento Tibabuye  Bogota 21-1083;250000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO594389801;Vendo Apartamento Cedritos Bogota  21-646;235000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593978344;Vendo Casa Uso Comercial La Castellana Apta Para Construir;1250000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO585027070;Vendo Exclusiva Casa En La Calera Cundinamarca 21-955;2600000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587091858;Apartamento En Venta En Santa Barbara 21-771 C.o;420000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO532616140;Casa En  Venta ;420000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO541536449;Apartamento En Venta Loma Benedictinos 622-12637;630000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598363808;Venta Apartamento Paso Ancho ;165000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO580152274;Venta Apto  Edificio Stanza El Pablado Medellin;845000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO597254230;Penthose En El Rodadero Por Dias;800000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO531102018;Casa La Calera  Conjunto Casa De Campo Se Vende;1971000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO536551034;Apartamento En Arriendo/venta Castropol 472-520;3500000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598865962;Vendo Casa Barrio Lisboa Suba  Mls 21-535;380000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593474599;Casas En Venta;385000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582355430;Apartamento En Venta En Envigado Sector Camino Verde;360000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO597920526;Apto En Envigado - Precio Por Debajo Del Mercado;209900000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596754582;Ganga Ganca Finca En Santafe De Antioquia;695000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO597014906;Arriendo Casa En  Vereda Guaymaral Cundinamarca Mls 21-600;9000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO554635592;Local En Itagui Calatrava;1850000000;1;0;classified;gold_premium;False;;MCO50561;Inmuebles
+MCO536527197;Apartamento En Venta Milla De Oro 472-444;585000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO582942248;Casa En  Venta ;139000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO587702271;Apartamento En Arriendo Ciudad Del Rio 743-3215;2000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO590951580;Apartamento En Venta Los Cedros Bogota 21-474  ;440000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593540499;Finca En Girardota Vereda El Totumo ;1150000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO590255882;Se Vende Casa En Pinares Pereira;690000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO598050360;¡tu Pones El Lote....nosotros El Diseño Y Construcción ;750000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO567696746;Arriendo Local Comercial El Retiro  Bogota 21-884;6000000;1;0;classified;gold_premium;False;;MCO50560;Inmuebles
+MCO592232277;Lote En  Venta ;950000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO598372631;Condominio Eco-campestre;300000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO597207601;Tierra Buena ;155000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO568602516;Apto Chico, 150m2, 3hab,3baños $953mm;953000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO598209556;Apartamento En  La Prosperidad Rah Co: 21-105;128000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO597015101;Arriendo Apartamento  San Patricio Bogota Mls 21-1067;3700000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO597091507;Finca En  Venta ;200000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO594564375;Apartamento Arriendo Chapinero Alto  Bogota  21-1078;4400000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO595983893;Lote En Peñol Espectacular  Vista Con Embalse ;3500000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO557888006;Casa En Venta Vía Condina Armenia-pereira;890000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO582588091;Apartamento En  Venta ;345000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595793617;Venta Finca Villa Isabella 10 Alcoba 8 Bagnos;800000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO595976162;Venta Apartamento Moderno  Poblado Castropol;610000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555686097;Vendo Hermosa Casa  Condominio Cerrado Cedritos  21-434;650000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO585546191;Venta Apartamento Avda De Las Americas En Centenario;230000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557862675;Arriendo Casa Campestre Sabana Centro Mls 21-652 Fr;8000000;1;0;classified;gold_premium;False;;MCO1467;Inmuebles
+MCO590857702;Arriendo Casa Poblado Castropol;3400000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO590946352;Apartamento En Venta Los Cedros Bogota Mls 21-474 Lq;440000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO578012305;Apartaestudio Centro Edificio Casa Del Virrey ;120000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593723604;Casa Con Piscina Privada Anapoima;1500000;1;0;classified;gold_premium;False;;MCO164684;Inmuebles
+MCO594557803;Apartamento En Arriendo Club Lagartos Bogota 21-1193;3186000000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO556541190;Casa En Venta Colina Campestre;559000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO594857506;Casa Salacomedor, 3 Alcobas, 2 Baños, Estudio, Cocina, Patio;370000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596438624;Lote En Jamundi Valle Condominio El Rincón Del Caney;75000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO587629896;Apartamento En Cartagena Con Vista Al Mar;450000;1;0;classified;gold_premium;False;;MCO164683;Inmuebles
+MCO562266872;Apartamento En Venta Comuna 12 Mls 20-229 Fr;355000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593284004;Venta De Apartamento La Estrella;165000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557887896;Venta Apartamentos Sector La Popa  Dosquebradas ;229900000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557886449;Venta De Apartamentos Cerritos Pereira Torre 3;450100000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO555308903;Apartamento En Arriendo Poblado 622-13385;4200000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO597590055;Vendo Apartamento En Hayuelos Con Vista Exterior;340000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO596030723;Ciudad Jardin Balcon 3 Alcobas 2 Baños Ascensor Parqueadero;266000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595444702;Oficinas En Venta Manila 622-14998;3655000000;1;0;classified;gold_premium;False;;MCO6401;Inmuebles
+MCO539108433;Casas En Venta Rionegro 622-12502;500000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO593426139;Finca Abejorral 60 Hectareas 900 Millones ;900000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO553914726;Casa En  Venta ;900000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO597199475;Venta De Casa Condominio Girardot;255000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO595355157;Venta Apartamento Barrio Molinos;158000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO593014547;Expectacular Casa En Anapoima Con Piscina;710000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596137612;Hermoso Apartamento Esquinero Con Domos, Patio, Balcón;145000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO582355414;Apartamento En Venta En Calasanz.;350000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO594501639;Arriendo Apartaestudio, Chapinero, Bogotá;1300000;1;0;classified;gold_premium;False;;MCO1473;Inmuebles
+MCO557888110;Venta Hermosa Casa Campestre Via Condina ;780000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
+MCO596663227;Finca Hotel Armenia Moderna 32.800m2 Productora Agricola;4230;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO557888101;Venta Apartamento Sector Alkosto Pereira;434824000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO594155535;Lote En Rionegro Excelente Ubicación Cerca Al Aeropuerto ;1050000000;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO568602522;Apto Belmira, 2 Hab, 2 Baños,2 Parqueos;350000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO595076278;Finca Cafetera En Guayabal De Siquima A 90 Minutos De Bogota;520000000;1;0;classified;gold_premium;False;;MCO6403;Inmuebles
+MCO588229325;Venta Espectacular Ph Bella Suiza;1150000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO557886458;Venta Lotes Urbanizados Sector Cerritos Pereira;409573500;1;0;classified;gold_premium;False;;MCO52059;Inmuebles
+MCO539113415;Apartamento En Venta Loma De Los Gonzalez 622-12498;980000000;1;0;classified;gold_premium;False;;MCO1474;Inmuebles
+MCO583244056;Casa Condominio En  Venta ;330000000;1;0;classified;gold_premium;False;;MCO1468;Inmuebles
