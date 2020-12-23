@@ -204,23 +204,88 @@ class meliRetriever:
         result_df = pd.DataFrame.from_dict(selected_features)
         return result_df
 
+    def extract_seller_attributes(self, product_json, idx):
+        """
+        Extract information about the reputation of the seller in the Marketplace
+        """
+        seller_info = product_json[idx]['seller']
+        seller_level_id = seller_info['seller_reputation']['seller_reputation']['level_id']
+        seller_powerseller = seller_info['seller_reputation']['power_seller_status']
+        positive_rating = seller_info['seller_reputation']['ratings']['positive'] # Computar un NPS
+        negative_rating = seller_info['seller_reputation']['ratings']['negative']
+        neutral_rating = seller_info['seller_reputation']['ratings']['neutral']
+        
+        seller_attributes_dict = {
+            'seller_level_id': seller_level_id,
+            'seller_powerseller': seller_powerseller,
+            'positive_rating': positive_rating,
+            'negative_rating': negative_rating,
+            'neutral_rating': neutral_rating
+        }
+        
+        return seller_attributes_dict
 
-# Sample function for retrieving creation date
-def retrieve_date_and_questions(token):
-    time.sleep(0.05)
-    url = 'https://api.mercadolibre.com/questions/search?item=MLA869879846&sort_fields=date_created&limit=1'
-    header = {
-        'Authorization': f'Bearer {token}' 
-    }
-    r = requests.get(url = url, headers = header)
-    question_json = r.json()
-    print(question_json)
-    total = question_json['total']
-    questions = question_json['questions']
-    if questions:
-        fecha_primera = questions[0]['date_created'].split('-')
-        year_created, month_created = fecha_primera[0], fecha_primera[1]
-    else:
-        year_created, month_created = None, None
-    
-    return total, year_created, month_created
+    def extract_nested_product_info(self, product_json, idx):
+        """
+        Extracts additional information of the product, such as shipping and tags.
+        """
+        
+        product_info = product_json[idx]
+        free_shipping = product_info['shipping']['free_shipping']
+        store_pickup = product_info['shipping']['store_pick_up']
+        number_of_tags = len(product_info['tags'])
+        is_official_store = (product_info['official_store_id'] is not None)
+        
+        product_information_dict = {
+            'free_shipping' : free_shipping, 
+            'store_pickup' : store_pickup,
+            'number_of_tags' : number_of_tags,
+            'is_official_store': is_official_store        
+        }
+        
+        return product_information_dict
+        
+
+    def date_information(self, product_json, idx):
+        """
+        Extract the last time of product updating based on thumbnail information
+        """
+        thumbnail_info = product_json[idx]['thumbnail']
+        if thumbnail_info is not None:
+            thumbnail_date = thumbnail_info.split('_')[-1]
+            month_update = thumbnail_date[:2]
+            year_update = thumbnail_date[2:6]
+        else:
+            month_update, year_update = None, None
+        
+        update_info = {
+            'month_update' : month_update,
+            'year_update' : year_update
+        }
+        
+        return update_info 
+
+    def retrieve_date_and_questions(self, product_json, idx):
+        time.sleep(0.05)
+
+        product_id = product_json['results'][idx]['id']
+        url = f'https://api.mercadolibre.com/questions/search?item={product_id}&sort_fields=date_created&limit=1'
+
+        r = requests.get(url = url, headers = self.authorization_token)
+        question_json = r.json()
+        print(question_json)
+        total = question_json['total']
+        questions = question_json['questions']
+        if questions:
+            fecha_primera = questions[0]['date_created'].split('-')
+            year_created, month_created = fecha_primera[0], fecha_primera[1]
+        else:
+            year_created, month_created = None, None
+        
+        question_date = {
+            'year_created' : year_created,
+            'month_created' : month_created,
+            'total_questions': total
+        }
+        return question_date
+
