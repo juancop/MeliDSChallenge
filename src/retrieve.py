@@ -150,7 +150,7 @@ class meliRetriever:
         """
         path = os.path.join(self.folder, f'{category_id}.csv')
 
-        max_requests = max(products_per_category, self.available_products_per_category[category_id])
+        max_requests = min(products_per_category, self.available_products_per_category[category_id])
         if check_existence:
             try:
                 complete_category_df = pd.read_csv(path, sep = ";")
