@@ -19,7 +19,7 @@ class meliRetriever:
     
     """
 
-    def __init__(self, site_name, token, folder = 'data'):
+    def __init__(self, site_name, token, folder = 'data', keep_individual_memory = False):
         """
         Params:
         --------
@@ -33,27 +33,27 @@ class meliRetriever:
                             'Authorization': f'Bearer {token}' 
                         }
         self.site_id = self.__retrieve_site_id(self.site_name)
-        self.available_categories = self.__retrieve_categories_ids()
+        self.available_categories, self.available_products_per_category = self.__retrieve_categories_ids()
         self.folder = folder
-        
+        self.keep_individual_memory = keep_individual_memory
 
-    def create_dataset(self, export_file = True, file_name = 'results.csv', export_individual = True, check_existence = True):
+    def create_dataset(self, export_file = False, file_name = 'results.csv', products_per_category = 5000, export_individual = True, check_existence = True):
         """
         Creates a DataSet listing all available products in Mercado Libre's Marketplace
         """
 
-        category_dataframes = [self.iterate_through_category(self.site_id, category_id, export_individual, check_existence) 
+        category_dataframes = [self.iterate_through_category(self.site_id, category_id, export_individual, check_existence, products_per_category) 
                                         for category_id in progressbar(self.available_categories.keys())]
         #category_dataframes = []
         #for category_id in tqdm(self.available_categories.keys()):
         #    print(category_id)
         #    category_df = self.iterate_through_category(self.site_id, category_id) 
         #    category_dataframes.append(category_df)
-
-        complete_site_df = pd.concat(category_dataframes, axis = 0, ignore_index=True)
-        if export_file:
-            complete_site_df.to_csv(file_name, sep = ';', index = False)
-        return complete_site_df
+        if self.keep_individual_memory:
+            complete_site_df = pd.concat(category_dataframes, axis = 0, ignore_index=True)
+            if export_file:
+                complete_site_df.to_csv(file_name, sep = ';', index = False)
+            return complete_site_df
 
     def __retrieve_site_id(self, site_name):
         """
@@ -92,7 +92,10 @@ class meliRetriever:
         categories_list = response.json()
         categories_dictionary = {categories_list[i]['id']: categories_list[i]['name'] 
                                                                         for i in range(len(categories_list))}
-        return categories_dictionary
+
+        elements_dictionary = {categories_list[i]['id']: categories_list[i]['total_items_in_this_category'] 
+                                                                        for i in range(len(categories_list))}
+        return categories_dictionary, elements_dictionary
 
     def list_marketplace_products(self, site_id, category_id, offset):
         """
@@ -128,7 +131,7 @@ class meliRetriever:
         except Exception as e:
             print(e)
 
-    def iterate_through_category(self, site_id, category_id, export_individual = True, check_existence = True):
+    def iterate_through_category(self, site_id, category_id, export_individual = True, check_existence = True, products_per_category = 5000):
         """
         Lists all the products in a given category.
 
@@ -147,13 +150,14 @@ class meliRetriever:
         """
         path = os.path.join(self.folder, f'{category_id}.csv')
 
+        max_requests = max(products_per_category, self.available_products_per_category[category_id])
         if check_existence:
             try:
                 complete_category_df = pd.read_csv(path, sep = ";")
             except:
                 time.sleep(0.05)
                 page_df_by_offset = [self.list_marketplace_products(self.site_id, category_id, offset) 
-                                            for offset in range(0, 10001, 50)]
+                                            for offset in range(0, max_requests, 50)]
 
                 #page_df_by_offset = []
                 #for offset in range(0, 101, 50):
@@ -164,7 +168,8 @@ class meliRetriever:
                 complete_category_df['category_name'] = self.available_categories[category_id]
                 if export_individual:
                     complete_category_df.to_csv(path, sep = ';', index = False)
-        return complete_category_df
+        if self.keep_individual_memory:
+            return complete_category_df
 
     def multiple_attribute_keys_df(self, product_json):
         """
