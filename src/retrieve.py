@@ -153,7 +153,7 @@ class meliRetriever:
             except:
                 time.sleep(0.05)
                 page_df_by_offset = [self.list_marketplace_products(self.site_id, category_id, offset) 
-                                            for offset in range(0, 101, 50)]
+                                            for offset in range(0, 10001, 50)]
 
                 #page_df_by_offset = []
                 #for offset in range(0, 101, 50):
@@ -256,11 +256,11 @@ class meliRetriever:
         Extract information about the reputation of the seller in the Marketplace
         """
         seller_info = product_json[idx]['seller']
-        seller_level_id = seller_info['seller_reputation']['level_id']
-        seller_powerseller = seller_info['seller_reputation']['power_seller_status']
-        positive_rating = seller_info['seller_reputation']['transactions']['ratings']['positive'] # Computar un NPS
-        negative_rating = seller_info['seller_reputation']['transactions']['ratings']['negative']
-        neutral_rating = seller_info['seller_reputation']['transactions']['ratings']['neutral']
+        seller_level_id = seller_info.get('seller_reputation', {}).get('level_id')
+        seller_powerseller = seller_info.get('seller_reputation', {}).get('power_seller_status')
+        positive_rating = seller_info.get('seller_reputation', {}).get('transactions', {}).get('ratings', {}).get('positive') # Computar un NPS
+        negative_rating = seller_info.get('seller_reputation', {}).get('transactions', {}).get('ratings', {}).get('negative')
+        neutral_rating = seller_info.get('seller_reputation', {}).get('transactions', {}).get('ratings', {}).get('neutral')
         
         seller_attributes_dict = {
             'seller_level_id': seller_level_id,
@@ -276,7 +276,6 @@ class meliRetriever:
         """
         Extracts additional information of the product, such as shipping and tags.
         """
-        
         product_info = product_json[idx]
         product_id = product_info['id']
         free_shipping = product_info['shipping']['free_shipping']
@@ -299,7 +298,7 @@ class meliRetriever:
         """
         Extract the last time of product updating based on thumbnail information
         """
-        thumbnail_info = product_json[idx]['thumbnail']
+        thumbnail_info = product_json[idx].get('thumbnail')
         if thumbnail_info is not None:
             thumbnail_date = thumbnail_info.split('_')[-1]
             month_update = thumbnail_date[:2]
@@ -315,13 +314,13 @@ class meliRetriever:
         return update_info 
 
     def retrieve_date_and_questions(self, product_json, idx):
-        time.sleep(0.05)
+        time.sleep(0.5)
         product_id = product_json[idx]['id']
         url = f'https://api.mercadolibre.com/questions/search?item={product_id}&sort_fields=date_created&limit=1'
         r = requests.get(url = url, headers = self.authorization_token)
         question_json = r.json()
-        total = question_json['total']
-        questions = question_json['questions']
+        total = question_json.get('total')
+        questions = question_json.get('questions', [])
         if questions:
             fecha_primera = questions[0]['date_created'].split('-')
             year_created, month_created = fecha_primera[0], fecha_primera[1]
