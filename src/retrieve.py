@@ -155,14 +155,14 @@ class meliRetriever:
                 A DataFrame containing all the retrieved information for a given category
         """
         path = os.path.join(self.folder, f'{category_id}.csv')
-
+        max_value = self.find_maximum_value(category_id, products_per_category)
         if check_existence:
             try:
                 complete_category_df = pd.read_csv(path, sep = ";")
             except:
                 time.sleep(0.05)
                 page_df_by_offset = [self.list_marketplace_products(self.site_id, category_id, offset) 
-                                            for offset in range(0, products_per_category, 50)]
+                                            for offset in range(0, max_value, 50)]
 
                 #page_df_by_offset = []
                 #for offset in range(0, 101, 50):
@@ -175,6 +175,20 @@ class meliRetriever:
                     complete_category_df.to_csv(path, sep = ';', index = False)
         if self.keep_individual_memory:
             return complete_category_df
+
+    def find_maximum_value(self, category_id, products_per_category):
+        """
+        Finds the maximum value of products available for retrieving. 
+        """
+        url = f'https://api.mercadolibre.com/categories/{category_id}'
+        r = requests.get(url = url, headers = self.authorization_token)
+        category_info = r.json()
+        total_items_in_this_category = category_info['total_items_in_this_category']
+        maximum_allowed = min(products_per_category, total_items_in_this_category)
+        return maximum_allowed
+
+
+
 
     def multiple_attribute_keys_df(self, product_json):
         """
@@ -266,6 +280,7 @@ class meliRetriever:
         Extract information about the reputation of the seller in the Marketplace
         """
         seller_info = product_json[idx]['seller']
+        seller_registration = seller_info.get('registration_date')
         seller_level_id = seller_info.get('seller_reputation', {}).get('level_id')
         seller_powerseller = seller_info.get('seller_reputation', {}).get('power_seller_status')
         positive_rating = seller_info.get('seller_reputation', {}).get('transactions', {}).get('ratings', {}).get('positive') # Computar un NPS
