@@ -118,11 +118,15 @@ class meliRetriever:
         product_request = requests.get(url = page_url, headers = self.authorization_token).json()
         #total_products = product_request['paging']['total'] Maximum 1000 without access key
         try:
+            
             product_json = product_request['results']
             product_df = self.single_attribute_keys_df(product_json)
+            nested_df = self.multiple_attribute_keys_df(product_json)
+
+            product_df = product_df.merge(nested_df, on = 'id')
             return product_df
-        except:
-            pass
+        except Exception as e:
+            print(e)
 
     def iterate_through_category(self, site_id, category_id, export_individual = True, check_existence = True):
         """
@@ -149,7 +153,12 @@ class meliRetriever:
             except:
                 time.sleep(0.05)
                 page_df_by_offset = [self.list_marketplace_products(self.site_id, category_id, offset) 
-                                            for offset in range(0, 1051, 50)]
+                                            for offset in range(0, 101, 50)]
+
+                #page_df_by_offset = []
+                #for offset in range(0, 101, 50):
+                #    tmp_df = self.list_marketplace_products(self.site_id, category_id, offset)
+                #    page_df_by_offset.append(tmp_df)
 
                 complete_category_df = pd.concat(page_df_by_offset, axis = 0, ignore_index=True)
                 complete_category_df['category_name'] = self.available_categories[category_id]
@@ -171,10 +180,11 @@ class meliRetriever:
             result_df (pandas.DataFrame)
                 A pandas DataFrame with the information of each product
         """
-        seller_attributes = iterate_and_combine(product_json, self.extract_seller_attributes)
-        product_info = iterate_and_combine(product_json, self.extract_nested_product_info)      
-        update_info = iterate_and_combine(product_json, self.date_information)
-        question_info = iterate_and_combine(product_json, self.retrieve_date_and_questions)
+        
+        seller_attributes = self.iterate_and_combine(product_json, self.extract_seller_attributes)
+        product_info = self.iterate_and_combine(product_json, self.extract_nested_product_info)    
+        update_info = self.iterate_and_combine(product_json, self.date_information)
+        question_info = self.iterate_and_combine(product_json, self.retrieve_date_and_questions)
 
         list_of_features = [product_info, update_info, question_info]
         for information in list_of_features:
@@ -182,8 +192,8 @@ class meliRetriever:
 
         result_df = pd.DataFrame.from_dict(seller_attributes)
         return result_df
-        
-    def iterate_and_combine(product_json, function):
+
+    def iterate_and_combine(self, product_json, function):
         """
         Iterates through the JSON and retrieves the fields based on the function of interest.
 
@@ -246,11 +256,11 @@ class meliRetriever:
         Extract information about the reputation of the seller in the Marketplace
         """
         seller_info = product_json[idx]['seller']
-        seller_level_id = seller_info['seller_reputation']['seller_reputation']['level_id']
+        seller_level_id = seller_info['seller_reputation']['level_id']
         seller_powerseller = seller_info['seller_reputation']['power_seller_status']
-        positive_rating = seller_info['seller_reputation']['ratings']['positive'] # Computar un NPS
-        negative_rating = seller_info['seller_reputation']['ratings']['negative']
-        neutral_rating = seller_info['seller_reputation']['ratings']['neutral']
+        positive_rating = seller_info['seller_reputation']['transactions']['ratings']['positive'] # Computar un NPS
+        negative_rating = seller_info['seller_reputation']['transactions']['ratings']['negative']
+        neutral_rating = seller_info['seller_reputation']['transactions']['ratings']['neutral']
         
         seller_attributes_dict = {
             'seller_level_id': seller_level_id,
@@ -268,12 +278,14 @@ class meliRetriever:
         """
         
         product_info = product_json[idx]
+        product_id = product_info['id']
         free_shipping = product_info['shipping']['free_shipping']
         store_pickup = product_info['shipping']['store_pick_up']
         number_of_tags = len(product_info['tags'])
         is_official_store = (product_info['official_store_id'] is not None)
         
         product_information_dict = {
+            'id' : product_id,
             'free_shipping' : free_shipping, 
             'store_pickup' : store_pickup,
             'number_of_tags' : number_of_tags,
@@ -304,13 +316,10 @@ class meliRetriever:
 
     def retrieve_date_and_questions(self, product_json, idx):
         time.sleep(0.05)
-
-        product_id = product_json['results'][idx]['id']
+        product_id = product_json[idx]['id']
         url = f'https://api.mercadolibre.com/questions/search?item={product_id}&sort_fields=date_created&limit=1'
-
         r = requests.get(url = url, headers = self.authorization_token)
         question_json = r.json()
-        print(question_json)
         total = question_json['total']
         questions = question_json['questions']
         if questions:

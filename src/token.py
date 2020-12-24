@@ -43,7 +43,7 @@ class getAPIkey:
             api_instance = meli.OAuth20Api(api_client)
             grant_type = 'authorization_code' # str
             client_id = '4892726125387151' # Your client_id
-            client_secret = '4892726125387151' # Your client_secret
+            client_secret = 'TSFEdX4odvgJlW9SBuuKi1tZWLTq18gQ' # Your client_secret
             redirect_uri = 'https://www.mercadolibre.com.co/' # Your redirect_uri
             #refresh_token = 'refresh_token_example' # Your refresh_token
 
