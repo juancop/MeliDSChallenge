@@ -16,6 +16,14 @@ class meliRetriever:
     """
     It's a class that allows the user to donwload the information of all the listed
     items at Mercado Libre's Marketplace.
+
+    Params
+    -------
+        site_name (string):
+            The country of interest
+        
+        token (string):
+            MELI's API Token to make
     
     """
 
@@ -33,7 +41,7 @@ class meliRetriever:
                             'Authorization': f'Bearer {token}' 
                         }
         self.site_id = self.__retrieve_site_id(self.site_name)
-        self.available_categories, self.available_products_per_category = self.__retrieve_categories_ids()
+        self.available_categories = self.__retrieve_categories_ids()
         self.folder = folder
         self.keep_individual_memory = keep_individual_memory
 
@@ -93,9 +101,7 @@ class meliRetriever:
         categories_dictionary = {categories_list[i]['id']: categories_list[i]['name'] 
                                                                         for i in range(len(categories_list))}
 
-        elements_dictionary = {categories_list[i]['id']: categories_list[i]['total_items_in_this_category'] 
-                                                                        for i in range(len(categories_list))}
-        return categories_dictionary, elements_dictionary
+        return categories_dictionary
 
     def list_marketplace_products(self, site_id, category_id, offset):
         """
@@ -150,14 +156,13 @@ class meliRetriever:
         """
         path = os.path.join(self.folder, f'{category_id}.csv')
 
-        max_requests = min(products_per_category, self.available_products_per_category[category_id])
         if check_existence:
             try:
                 complete_category_df = pd.read_csv(path, sep = ";")
             except:
                 time.sleep(0.05)
                 page_df_by_offset = [self.list_marketplace_products(self.site_id, category_id, offset) 
-                                            for offset in range(0, max_requests, 50)]
+                                            for offset in range(0, products_per_category, 50)]
 
                 #page_df_by_offset = []
                 #for offset in range(0, 101, 50):
