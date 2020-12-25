@@ -8,6 +8,7 @@ import pandas as pd
 from tqdm import tqdm 
 from progressbar import progressbar
 from collections import defaultdict
+from joblib import Parallel, delayed
 
 class CountryNotFound(Exception):
     pass
@@ -27,7 +28,7 @@ class meliRetriever:
     
     """
 
-    def __init__(self, site_name, token, folder = 'data', keep_individual_memory = False):
+    def __init__(self, site_name, token, folder = 'data', keep_individual_memory = False, parallerl = True, n_jobs = -1):
         """
         Params:
         --------
@@ -44,13 +45,20 @@ class meliRetriever:
         self.available_categories = self.__retrieve_categories_ids()
         self.folder = folder
         self.keep_individual_memory = keep_individual_memory
+        self.parallel = parallel
+        self.n_jobs = n_jobs
 
     def create_dataset(self, export_file = False, file_name = 'results.csv', products_per_category = 5000, export_individual = True, check_existence = True):
         """
         Creates a DataSet listing all available products in Mercado Libre's Marketplace
         """
 
-        category_dataframes = [self.iterate_through_category(self.site_id, category_id, export_individual, check_existence, products_per_category) 
+        if self.parallel:
+            
+            category_dataframes = Parallel(n_jobs=self.n_jobs, backend = 'multiprocessing', verbose = 5)(delayed(self.iterate_through_category)(category_id, self.site_id, export_individual, check_existence, products_per_category) 
+                                        for category_id in self.available_categories.keys())          
+        else:
+            category_dataframes = [self.iterate_through_category(category_id, self.site_id, export_individual, check_existence, products_per_category) 
                                         for category_id in progressbar(self.available_categories.keys())]
         #category_dataframes = []
         #for category_id in tqdm(self.available_categories.keys()):
@@ -137,7 +145,7 @@ class meliRetriever:
         except Exception as e:
             print(e)
 
-    def iterate_through_category(self, site_id, category_id, export_individual = True, check_existence = True, products_per_category = 5000):
+    def iterate_through_category(self, category_id, site_id, export_individual = True, check_existence = True, products_per_category = 5000):
         """
         Lists all the products in a given category.
 
