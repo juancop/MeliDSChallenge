@@ -17,15 +17,14 @@ class meliRetriever:
     """
     It's a class that allows the user to donwload the information of all the listed
     items at Mercado Libre's Marketplace.
-
-    Params
-    -------
-        site_name (string):
-            The country of interest
-        
-        token (string):
-            MELI's API Token to make
     
+    Example:
+        >>> retriever = meliRetriever(site_name = 'Colombia', 
+                                                   token = api_key,
+                                                   keep_individual_memory = False)
+
+        >>> retriever.create_dataset(file_name = 'data/ColombianData.csv', products_per_category = 10000)
+
     """
 
     def __init__(self, site_name, token, folder = 'data', keep_individual_memory = False, parallel = True, n_jobs = -1):
@@ -34,6 +33,21 @@ class meliRetriever:
         --------
             site_id (str):
                 A site name from which list MELI's products (https://api.mercadolibre.com/sites#json)
+        
+            token (string):
+                MELI's API Token to make
+
+            folder (string):
+                Folder where the data is going to be stored.
+
+            keep_individual_memory (bool):
+                (Default False) If the extraction for each category is going to be stored in memory.
+            
+            parallel (bool):
+                (Default True) If the user wants parallel retrieving of information.
+            
+            n_jobs (int):
+                (Default -1) Number of concurrent threads for parallel retrieving. If -1 uses all available.
 
         """
         
@@ -51,20 +65,42 @@ class meliRetriever:
     def create_dataset(self, export_file = False, file_name = 'results.csv', products_per_category = 5000, export_individual = True, check_existence = True):
         """
         Creates a DataSet listing all available products in Mercado Libre's Marketplace
+
+        Params
+        --------
+            export_file (bool): 
+                (Default False) Defines wheter to export a final dataset containing the information
+                                of each category. If keep_individual_memory = False, this parameter is ignored.
+
+            file_name (string):
+                (Default results.csv) Defines the output name of the extraction. 
+            
+            products_per_category (int):
+                (Default 5000) Specifies the maximum number of product requests for each category. 
+            
+            export_individual (bool):
+                (Default True) If true, a dataset for each category is going to be exported. 
+            
+            check_existence (bool):
+                (Default True) Verifies the existence of a CSV file containing the information of the category. 
+                               If a CSV exists, then the retriever skips the extraction.
+
+        
+        Returns
+        ---------
+            complete_site_df: [Only if class attribute keep_individual_memory is True]
+                (pandas.DataFrame) A DataFrame containing the information of the products in the site, 
+                                   as specified by the user.
+
         """
 
         if self.parallel:
-            
             category_dataframes = Parallel(n_jobs=self.n_jobs, backend = 'multiprocessing', verbose = 5)(delayed(self.iterate_through_category)(category_id, self.site_id, export_individual, check_existence, products_per_category) 
                                         for category_id in self.available_categories.keys())          
         else:
             category_dataframes = [self.iterate_through_category(category_id, self.site_id, export_individual, check_existence, products_per_category) 
                                         for category_id in progressbar(self.available_categories.keys())]
-        #category_dataframes = []
-        #for category_id in tqdm(self.available_categories.keys()):
-        #    print(category_id)
-        #    category_df = self.iterate_through_category(self.site_id, category_id) 
-        #    category_dataframes.append(category_df)
+
         if self.keep_individual_memory:
             complete_site_df = pd.concat(category_dataframes, axis = 0, ignore_index=True)
             if export_file:
@@ -78,7 +114,7 @@ class meliRetriever:
         Params:
         ---------
             site_name (string):
-                The name of the country of interest
+                The name of the country of interest.
             
         Returns
         ---------
@@ -118,10 +154,10 @@ class meliRetriever:
         Params
         --------
             site_id (string): 
-                The ID of the country of interest
+                The ID of the country of interest.
             
             category_id (string):
-                The ID of the category of interest
+                The ID of the category of interest.
 
             offset (integer):
                 Starting point of the request.
@@ -129,7 +165,7 @@ class meliRetriever:
         Returns
         ---------
             product_df (pandas.DataFrame):
-                A DataFrame containing all the single-valued information for each product
+                A DataFrame containing all the single-valued information for each product.
         """
         page_url = f'https://api.mercadolibre.com/sites/{site_id}/search?category={category_id}&offset={offset}'
         product_request = requests.get(url = page_url, headers = self.authorization_token).json()
@@ -151,11 +187,20 @@ class meliRetriever:
 
         Params
         --------
-            site_id (string): 
-                The ID of the country of interest
-            
             category_id (string):
-                The ID of the category of interest
+                The ID of the category of interest.
+
+            site_id (string):
+                The ID of the country of interest.
+            
+            export_individual (bool):
+                (Default True) If true, a dataset ef the category is exported after completition.
+            
+            check_existence (bool):
+                (Default True) Verifies the existence of a CSV file containing the information of the category. 
+                               If a CSV exists, then the retriever loads the file and skips this extraction.
+            
+
         
         Returns
         --------
@@ -186,7 +231,9 @@ class meliRetriever:
 
     def find_maximum_value(self, category_id, products_per_category):
         """
-        Finds the maximum value of products available for retrieving. 
+        Finds the maximum value of products allowed for retrieving. 
+        It corresponds to the minimum between the available products of the category 
+        and the products requested by the user.
         """
         url = f'https://api.mercadolibre.com/categories/{category_id}'
         r = requests.get(url = url, headers = self.authorization_token)
@@ -205,12 +252,12 @@ class meliRetriever:
         Params
         --------
             product_json (dict):
-                A dictionary containing the response from the API
+                A dictionary containing the response from the API.
 
         Returns
         --------
             result_df (pandas.DataFrame)
-                A pandas DataFrame with the information of each product
+                A pandas DataFrame with the information of each product.
         """
         
         seller_attributes = self.iterate_and_combine(product_json, self.extract_seller_attributes)
@@ -232,7 +279,7 @@ class meliRetriever:
         Params
         --------
             product_json (dictionary):
-                A dictionary containing the 'results' response from MELI's API
+                A dictionary containing the 'results' response from MELI's API.
 
             function (function):
                 A function that performs extraction of fields.
@@ -262,12 +309,12 @@ class meliRetriever:
         Params
         --------
             product_json (dict):
-                A dictionary containing the response from the API
+                A dictionary containing the response from the API.
 
         Returns
         --------
             result_df (pandas.DataFrame)
-                A pandas DataFrame with the information of each product
+                A pandas DataFrame with the information of each product.
         """
         single_attribute_keys = ['id', 'category_id', 'title', 'price', 'available_quantity', 'sold_quantity', 
                                  'buying_mode', 'listing_type_id', 'accepts_mercadopago',
@@ -347,6 +394,9 @@ class meliRetriever:
         return update_info 
 
     def retrieve_date_and_questions(self, product_json, idx):
+        """
+        Retrieves the date of the number of questions made, and the date of the first one.        
+        """
         time.sleep(0.5)
         product_id = product_json[idx]['id']
         url = f'https://api.mercadolibre.com/questions/search?item={product_id}&sort_fields=date_created&limit=1'
