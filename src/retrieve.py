@@ -28,7 +28,7 @@ class meliRetriever:
     
     """
 
-    def __init__(self, site_name, token, folder = 'data', keep_individual_memory = False, parallerl = True, n_jobs = -1):
+    def __init__(self, site_name, token, folder = 'data', keep_individual_memory = False, parallel = True, n_jobs = -1):
         """
         Params:
         --------
