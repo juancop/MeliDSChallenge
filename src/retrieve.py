@@ -16,7 +16,7 @@ class CountryNotFound(Exception):
 class meliRetriever:
     """
     It's a class that allows the user to donwload the information of all the listed
-    items at Mercado Libre's Marketplace.
+    items at Mercado Libre's Marketplace for any country.
     
     Example:
         >>> retriever = meliRetriever(site_name = 'Colombia', 
