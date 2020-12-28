@@ -19,7 +19,7 @@ class benchmark:
             return -1
         else:
             group = (product_age-1)//self.grouping # Mod para dentro de un mismo grupo
-            return group if group > self.group_after else self.group_after + 1
+            return group if group <= self.group_after else self.group_after + 1
 
     def fit(self, X, y):
         """
