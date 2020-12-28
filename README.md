@@ -14,10 +14,12 @@ El módulo ``src`` es el principal elemento del respositorio, pues contiene todo
 
 La carpeta `notebooks` contiene los notebooks de análisis exploratorio y modelamiento. 
 
-Finalmente, la carpeta `data` contiene los archivos descargados para Colombia, que son el insumo de la información de este reto.
+* `AnalisisExploratorio.ipynb`: Contiene la solución de la primera parte del Desafío (Análisis Exploratorio de Productos con Descuento)
+
+* `EDA_SoldQuantity.ipynb`: Contiene el Análisis Exploratorio para la creación del modelo de predicción de Cantidad Vendida (*sold_quantity*).
+
+* `MODEL_SoldQuantity.ipynb`: Es el Notebook que realiza la estimación de modelos y su evaluación. 
+
+Finalmente, la carpeta `data` contiene los archivos descargados para Colombia, que son el insumo de la información de este reto, y la carpeta `imgs` guarda imágenes que son utilizadas dentro de los Notebooks de exploración.
 
 
-
-
-## Toca poner información de las fuentes > Del país > Los artículos y las limitaciones en cuanto a requests
-## También toca poner el tema de la organización y principales hallazgos.
