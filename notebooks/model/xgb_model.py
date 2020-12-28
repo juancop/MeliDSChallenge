@@ -25,7 +25,7 @@ def define_xgb_for_cv(num_class, scoring = 'f1_macro'):
                          gamma=0,
                          max_depth=3,
                          objective = 'multi:softmax',
-                         n_jobs = -1,
+                         n_jobs = 2,
                          num_class = num_class)
 
     model_cv = RandomizedSearchCV(model, 
