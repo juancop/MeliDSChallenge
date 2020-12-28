@@ -22,4 +22,3 @@ La carpeta `notebooks` contiene los notebooks de análisis exploratorio y modela
 
 Finalmente, la carpeta `data` contiene los archivos descargados para Colombia, que son el insumo de la información de este reto, y la carpeta `imgs` guarda imágenes que son utilizadas dentro de los Notebooks de exploración.
 
-
