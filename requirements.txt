@@ -6,3 +6,5 @@ numpy==1.19.1
 statsmodels==0.12.1
 xgboost==1.2.1
 progressbar2==3.53.1
+matplotlib==3.3.1
+scikit-learn==0.23.2
